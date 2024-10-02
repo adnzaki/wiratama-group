@@ -1,4 +1,9 @@
 #-------------------------
+# Project's Ignored Files
+#-------------------------
+public/template
+
+#-------------------------
 # Operating Specific Junk Files
 #-------------------------
 
