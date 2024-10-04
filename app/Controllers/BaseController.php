@@ -35,7 +35,7 @@ abstract class BaseController extends Controller
      *
      * @var list<string>
      */
-    protected $helpers = [];
+    protected $helpers = ['url'];
 
     /**
      * Be sure to declare properties for any property fetch you initialized.
@@ -54,5 +54,18 @@ abstract class BaseController extends Controller
         // Preload any models, libraries, etc, here.
 
         // E.g.: $this->session = \Config\Services::session();
+    }
+
+    public function commonData()
+    {
+        $data = [
+            'siteName'      => 'Wiratama Group',
+            'headerTitle'   => 'Wiratama',
+            'address'       => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
+            'tagline'       => 'Hunian Eksklusif dengan Sentuhan Futuristik',
+            'description'   => 'Kemewahan modern dengan desain inovatif dan teknologi canggih yang menghadirkan kenyamanan sekaligus keanggunan.',
+        ];
+
+        return $data;
     }
 }
