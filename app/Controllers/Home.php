@@ -7,10 +7,24 @@ class Home extends BaseController
     public function index()
     {
         $data = [
-            'heros' => $this->hero()
+            'heros'     => $this->hero(),
+            'overview'  => $this->overview(),
         ];
         
         return view('home/main', array_merge($this->commonData(), $data));
+    }
+
+
+    private function overview()
+    {
+        $data = [
+            'title'         => 'Rasakan Keanggunan dan Kenyamanan di Hunian Impian',
+            'description'   => 'Nikmati konsep rumah Modern, Futuristik, dan Mewah di Wiratama Estate 3, yang dirancang untuk gaya hidup premium dengan harga terjangkau.<br/><br/> Sementara itu, Wiratama Residence 2 menawarkan desain Mezzanine yang minimalis dan fungsional, menciptakan suasana hangat dan nyaman bagi setiap keluarga.',
+            'image1'        => 'property-1.png',
+            'image2'        => 'property-3.png',
+        ];
+
+        return $data;
     }
 
     private function hero()

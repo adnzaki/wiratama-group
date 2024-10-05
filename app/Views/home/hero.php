@@ -8,7 +8,7 @@
         <div class="bg-elements">
             <img src="assets/img/elements/elements7.png" alt="" class="elements2">
         </div>
-        <div class="container">
+        <div class="container" style="margin-top: -70px;"  >
             <div class="row">
                 <div class="col-lg-5 col-md-9">
                     <div class="header-content-area header-heading">
