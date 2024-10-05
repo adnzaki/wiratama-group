@@ -59,11 +59,13 @@ abstract class BaseController extends Controller
     public function commonData()
     {
         $data = [
-            'siteName'      => 'Wiratama Group',
-            'headerTitle'   => 'Wiratama',
-            'address'       => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
-            'tagline'       => 'Hunian Eksklusif dengan Sentuhan Futuristik',
-            'description'   => 'Kemewahan modern dengan desain inovatif dan teknologi canggih yang menghadirkan kenyamanan sekaligus keanggunan.',
+            'siteName'          => 'Wiratama Group',
+            'headerTitle'       => 'Wiratama',
+            'contactNumber'     => '+62 813-8886-8880',
+            'contactLink'       => 'https://wa.me/6281388868880',
+            'email'             => 'marketing@wiratama-group.com',
+            'location'          => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
+            'logo'              => 'logo-wiratama.png',
         ];
 
         return $data;

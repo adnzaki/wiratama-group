@@ -1,3 +1,24 @@
 .h2-48px {
     font-size: 54px !important;
 }
+
+.homepage3-body .header-area.homepage3.wr-menu-sticky {
+    padding: 0 !important;
+}
+
+.homepage3-body .header-area.homepage3.wr-menu-sticky-hide {
+    padding: 16px !important;
+}
+
+.homepage3-body .header-area.homepage3 .header-elements .main-menu ul li ul.dropdown-padding.wr-menu-dropdown {
+    width: 245px !important;
+    margin-top: 20px;
+}
+
+.homepage3-body .header-area.homepage3 .header-elements {
+    padding: 5px 24px;
+}
+
+.homepage3-body .header-area.homepage3 .header-elements .main-menu ul li a.wr-menu-item {
+    padding: 25px 20px !important;
+}

@@ -6,36 +6,23 @@
                 <div class="col-lg-12">
                     <div class="header-elements">
                         <div class="site-logo">
-                            <a href="index.html"><img src="assets/img/logo/logo-wiratama.png" alt=""></a>
+                            <a href="index.html"><img src="assets/img/logo/<?= $logo ?>" alt=""></a>
                         </div>
                         <div class="main-menu">
                             <ul>
-                                <li><a href="<?= base_url() ?>">Home</a></li>
+                                <li><a href="<?= base_url() ?>" class="wr-menu-item">Home</a></li>
 
-                                <li><a href="#">Products <i class="fa-solid fa-angle-down"></i></a>
-                                    <ul class="dropdown-padding">
-                                        <li class="menu-small"><a href="#">Our Apartment <i class="fa-solid fa-angle-right"></i></a>
-                                            <ul class="small-menu">
-                                                <li><a href="apartment-v1.html">Apartment V1</a></li>
-                                                <li><a href="apartment-v2.html">Apartment V2</a></li>
-                                                <li><a href="apartment-v3.html">Apartment V3</a></li>
-                                                <li><a href="apartment-v4.html">Apartment V4</a></li>
-                                                <li><a href="apartment-v5.html">Apartment V5</a></li>
-                                                <li><a href="apartment-v6.html">Apartment V6</a></li>
-                                            </ul>
+                                <li><a href="#" class="wr-menu-item">Products <i class="fa-solid fa-angle-down"></i></a>
+                                    <ul class="dropdown-padding wr-menu-dropdown">
+                                        <li class="menu-small"><a href="#">Wiratama Estate 3 </a>
                                         </li>
-                                        <li class="menu-small"><a href="service2.html">Single Apartment <i class="fa-solid fa-angle-right"></i></a>
-                                            <ul class="small-menu">
-                                                <li><a href="apartment-left.html">Details Left</a></li>
-                                                <li><a href="apartment-right.html">Details Right</a></li>
-                                                <li><a href="apartment-single.html">Details Single</a></li>
-                                            </ul>
+                                        <li class="menu-small"><a href="service2.html">Wiratama Residence 2 </a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Blogs</a></li>
-                               
+                                <li><a href="#" class="wr-menu-item">About Us</a></li>
+                                <li><a href="#" class="wr-menu-item">Blogs</a></li>
+
                             </ul>
                         </div>
                         <div class="btn-area-author">

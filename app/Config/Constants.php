@@ -14,6 +14,14 @@
  | existing namespaces of App\* namespaced-classes.
  */
 defined('APP_NAMESPACE') || define('APP_NAMESPACE', 'App');
+/*
+ | --------------------------------------------------------------------
+ | Public Path
+ | --------------------------------------------------------------------
+ |
+ | The path that the public document root is expected to live.
+ */
+defined('PUBLICPATH') || define('PUBLICPATH', ROOTPATH . 'public/');
 
 /*
  | --------------------------------------------------------------------------
