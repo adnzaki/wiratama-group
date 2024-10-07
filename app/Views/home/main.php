@@ -15,7 +15,7 @@
 
     <?= view('home/property') ?>
 
-    <?= view('home/service') ?>
+    <?= view('home/facilities') ?>
 
     <?= view('home/about') ?>
 

@@ -9,9 +9,51 @@ class Home extends BaseController
         $data = [
             'heros'     => $this->hero(),
             'overview'  => $this->overview(),
+            'facilities' => $this->facilities(),
         ];
         
         return view('home/main', array_merge($this->commonData(), $data));
+    }
+
+    private function facilities()
+    {
+        $facilities = [
+            [
+                'img' => 'wr-facility-1.png',
+                'space' => false,
+                'number' => '01',
+                'title' => 'Pasar Setu',
+                'description' => 'Dekat Pasar Setu, memenuhi kebutuhan harian Anda dengan mudah.',
+                'speed' => 800
+            ],
+            [
+                'img' => 'wr-facility-2.png',
+                'space' => true,
+                'number' => '02',
+                'title' => 'Jalan Tol Cibitung-Cimanggis',
+                'description' => 'Akses tol cepat, memudahkan perjalanan Anda.',
+                'speed' => 1000
+            ],
+            [
+                'img' => 'wr-facility-3.png',
+                'space' => false,
+                'number' => '03',
+                'title' => 'SMAN 1 Setu',
+                'description' => 'Dekat sekolah menengah atas, nyaman untuk pendidikan anak.',
+                'speed' => 1100
+            ],
+            [
+                'img' => 'wr-facility-4.png',
+                'space' => true,
+                'number' => '04',
+                'title' => 'Minimarket',
+                'description' => 'Minimarket terdekat, kebutuhan sehari-hari selalu terjangkau.',
+                'speed' => 1200
+            ]
+        ];
+
+        return $facilities;
+
     }
 
 
