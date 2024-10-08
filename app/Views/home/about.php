@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-5 m-auto">
                 <div class="about-header text-center heading3 space-margin60">
-                    <h5 data-aos="fade-left" data-aos-duration="800">our best properties</h5>
+                    <h5 data-aos="fade-left" data-aos-duration="800">wiratama estate 3</h5>
                     <div class="space20"></div>
                     <h2 class="text-anime-style-3">Jelajahi Properti Unggulan Kami</h2>
                 </div>

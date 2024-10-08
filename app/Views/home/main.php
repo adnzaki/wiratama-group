@@ -19,7 +19,7 @@
 
     <?= view('home/about') ?>
 
-    <?= view('home/gallery') ?>
+    <?//= view('home/gallery') ?>
 
     <?= view('home/testimonial') ?>
 
