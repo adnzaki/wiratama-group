@@ -7,12 +7,30 @@ class Home extends BaseController
     public function index()
     {
         $data = [
-            'heros'     => $this->hero(),
-            'overview'  => $this->overview(),
-            'facilities' => $this->facilities(),
+            'heros'         => $this->hero(),
+            'overview'      => $this->overview(),
+            'facilities'    => $this->facilities(),
+            'properties'    => $this->bestPropertiesSlider(),
+            'youtubeLink'   => 'https://www.youtube.com/watch?v=KIJAv5XEgQw',
+            'video-thumb'   => 'wr-video-thumbnail.png'
         ];
         
         return view('home/main', array_merge($this->commonData(), $data));
+    }
+
+    private function bestPropertiesSlider()
+    {
+        $images = [
+            'wr-bima-1.png',
+            'wr-bima-2.png',
+            'wr-bima-3.png',
+            'wr-bima-4.png',
+            'wr-bima-5.png',
+            'wr-bima-6.png',
+            'wr-bima-7.png'
+        ];
+
+        return $images;
     }
 
     private function facilities()
