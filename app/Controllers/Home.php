@@ -12,7 +12,8 @@ class Home extends BaseController
             'facilities'    => $this->facilities(),
             'properties'    => $this->bestPropertiesSlider(),
             'youtubeLink'   => 'https://www.youtube.com/watch?v=KIJAv5XEgQw',
-            'video-thumb'   => 'wr-video-thumbnail.png'
+            'video-thumb'   => 'wr-video-thumbnail.png',
+            'posts'         => wp()->setPerPage(3)->getPosts(1)
         ];
         
         return view('home/main', array_merge($this->commonData(), $data));
