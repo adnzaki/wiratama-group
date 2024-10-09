@@ -40,6 +40,13 @@ class WpAdapter
      */
     private $singlePostBaseUrl = 'read-post';
 
+    /**
+     * The length of the excerpt
+     * 
+     * @var int
+     */
+    private $excerptLength = 150;
+
     public function __construct(string $baseUrl)
     {
         $this->baseUrl = $baseUrl;
@@ -55,6 +62,13 @@ class WpAdapter
     public function setSinglePostUrl(string $url)
     {
         $this->singlePostBaseUrl = $url;
+
+        return $this;
+    }
+
+    public function setExcerptLength(int $length)
+    {
+        $this->excerptLength = $length;
 
         return $this;
     }
@@ -146,7 +160,7 @@ class WpAdapter
         return $data;
     }
 
-    private function getPostDetail($post, $dateFormatter = null)
+    private function getPostDetail($post)
     {
         $postImage = '';
         $singlePostImage = '';
@@ -189,9 +203,9 @@ class WpAdapter
 
         $postURL = base_url($this->singlePostBaseUrl . '/' . $post->slug);
 
-        return [
+        return (object)[
             'title'             => $post->title->rendered,
-            'excerpt'           => substr(strip_tags($post->content->rendered), 0, 150),
+            'excerpt'           => substr(strip_tags($post->content->rendered), 0, $this->excerptLength),
             'content'           => $post->content->rendered,
             'media'             => $postImage,
             'thumbnail'         => $thumbnail,
