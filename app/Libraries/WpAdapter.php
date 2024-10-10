@@ -9,7 +9,7 @@
  * 
  * Usage Example:
  * $wp = new WpAdapter('https://yourwordpresssite.com');
- * $posts = $wp->getPosts();
+ * $posts = $wp->setPerPage(5)->getPosts(1); // get posts from page 1 with 5 posts per page
  * 
  * @author      Adnan Zaki
  * @version     1.0
