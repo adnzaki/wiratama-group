@@ -7,19 +7,32 @@ class Home extends BaseController
     public function index()
     {
         $data = [
-            'heros'         => $this->hero(),
-            'overview'      => $this->overview(),
-            'facilities'    => $this->facilities(),
-            'properties'    => $this->bestPropertiesSlider(),
-            'youtubeLink'   => 'https://www.youtube.com/watch?v=KIJAv5XEgQw',
-            'video-thumb'   => 'wr-video-thumbnail.png',
-            'posts'         => wp()->setPerPage(3)->getPosts(1)
+            'heros'                 => $this->hero(),
+            'overview'              => $this->overview(),
+            'facilities'            => $this->facilities(),
+            'properties'            => $this->wiratamaEstate3Slider(),
+            'youtubeLink'           => 'https://www.youtube.com/watch?v=KIJAv5XEgQw',
+            'video-thumb'           => 'wr-video-thumbnail.png',
+            'wiratamaResidence2'    => $this->wiratamaResidence2Slider(),
+            'posts'                 => wp()->setPerPage(3)->getPosts(1)
         ];
         
         return view('home/main', array_merge($this->commonData(), $data));
     }
 
-    private function bestPropertiesSlider()
+    private function wiratamaResidence2Slider()
+    {
+        $images = [
+            'wr-img-1.png',
+            'wr-img-2.png',
+            'wr-img-3.png',
+            'wr-img-4.png',
+        ];
+
+        return $images;
+    }
+
+    private function wiratamaEstate3Slider()
     {
         $images = [
             'wr-bima-1.png',
@@ -80,7 +93,8 @@ class Home extends BaseController
     {
         $data = [
             'title'         => 'Rasakan Keanggunan dan Kenyamanan di Hunian Impian',
-            'description'   => 'Nikmati konsep rumah Modern, Futuristik, dan Mewah di Wiratama Estate 3, yang dirancang untuk gaya hidup premium dengan harga terjangkau.<br/><br/> Sementara itu, Wiratama Residence 2 menawarkan desain Mezzanine yang minimalis dan fungsional, menciptakan suasana hangat dan nyaman bagi setiap keluarga.',
+            'description'   => 'Nikmati konsep rumah Modern, Futuristik, dan Mewah di Wiratama Estate 3, yang dirancang untuk gaya hidup premium dengan harga terjangkau.<br/><br/> 
+                                Sementara itu, Wiratama Residence 2 menawarkan desain Skandinavia yang elegan dan sederhana, menghadirkan kehangatan dan kenyamanan dalam setiap sudut hunian.',
             'image1'        => 'property-1.png',
             'image2'        => 'property-3.png',
         ];
@@ -102,8 +116,8 @@ class Home extends BaseController
             [
                 'image'         => 'wr-hero-4.png',
                 'address'       => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
-                'tagline'       => 'Hunian Mezzanine Berkonsep Scandinavia',
-                'description'   => 'Gaya minimalis, fungsional, dan nyaman dengan nuansa hangat khas Skandinavia.',
+                'tagline'       => 'Keanggunan Skandinavia, Hadir di Rumah Anda',
+                'description'   => 'Nikmati keindahan dan kesederhanaan desain Skandinavia yang menyatu sempurna dengan kenyamanan hunian Anda.',
                 'buttonUrl'     => '#',
             ]
         ];

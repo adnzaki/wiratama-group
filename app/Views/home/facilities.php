@@ -6,7 +6,7 @@
                 <div class="heading3 text-center space-margin60">
                     <h5 data-aos="fade-left" data-aos-duration="800">Fasilitas</h5>
                     <div class="space20"></div>
-                    <h2 class="text-anime-style-3">Segalanya Lebih Dekat, Lebih Mudah</h2>
+                    <h2 class="text-anime-style-3">Segalanya Lebih Dekat,<br> Lebih Mudah</h2>
                 </div>
             </div>
         </div>

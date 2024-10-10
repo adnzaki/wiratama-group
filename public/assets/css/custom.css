@@ -26,3 +26,16 @@
 .blog3-section-area .blog-boxarea .img1 {
     height: 420px;
 }
+
+.testimonial3-section-area .testimonial-vertical .img1 img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.testimonial3-section-area .testimonial-arrow-area .testimonial3-vertical-slider .testimonial-vertical {
+    padding: 0 !important;
+    background: transparent !important;
+}

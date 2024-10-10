@@ -1,4 +1,5 @@
 <!--===== BLOG AREA STARTS =======-->
+<?php if($posts['status'] === 'post_found') : ?>
 <div class="blog3-section-area sp7">
     <div class="container">
         <div class="row">
@@ -25,7 +26,7 @@
                             <div class="space20"></div>
                             <a href="<?= $post->url ?>"><?= $post->title ?></a>
                             <div class="space24"></div>
-                            <a href="blog-single.html" class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="<?= $post->url ?>" class="readmore">Read More <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -37,4 +38,5 @@
         </div>
     </div>
 </div>
+<?php endif; ?>
 <!--===== BLOG AREA ENDS =======-->

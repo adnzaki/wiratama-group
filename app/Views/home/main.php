@@ -17,13 +17,13 @@
 
     <?= view('home/facilities') ?>
 
-    <?= view('home/about') ?>
+    <?= view('home/wiratama-estate-3') ?>
 
     <?//= view('home/gallery') ?>
 
-    <?= view('home/testimonial') ?>
+    <?= view('home/wiratama-residence-2') ?>
 
-    <?= view('home/schedule-tour') ?>
+    <?//= view('home/schedule-tour') ?>
 
     <?= view('home/blog') ?>
 

@@ -300,6 +300,34 @@
     },
   });
 
+  $(".wiratama2-slider-area").owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: true,
+    dots: false,
+    items: 10,
+    mouseDrag: true,
+    navText: [
+      "<i class='fa-solid fa-angle-left'></i>",
+      "<i class='fa-solid fa-angle-right'></i>",
+    ],
+    autoplay: true,
+    smartSpeed: 3000,
+    autoplayTimeout: 4000,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 1,
+      },
+    },
+  });
+
   $(".about-slider-area").owlCarousel({
     loop: true,
     margin: 30,
@@ -364,6 +392,7 @@
     verticalSwiping: true,
     slidesToShow: 2,
     autoplay: true,
+    autoplaySpeed: 7000,
     prevArrow: $(".testimonial-next-arrow"),
     nextArrow: $(".testimonial-prev-arrow"),
     responsive: [
