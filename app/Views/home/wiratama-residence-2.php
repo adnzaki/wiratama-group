@@ -46,8 +46,8 @@
                 <div class="testimonial-arrow-area" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="testimonial3-vertical-slider">
                         <?php foreach ($wiratamaResidence2 as $slider) : ?>
-                            <div class="testimonial-vertical">
-                                <div class="wiratama2-slider-area owl-carousel">
+                            <div class="testimonial-vertical wiratama-residence2-slider">
+                                <div class="property-images-area">
                                     <div class="img1 reveal image-anime">
                                         <img src="assets/img/all-images/wiratama-residence-2/<?= $slider ?>" alt="">
                                     </div>

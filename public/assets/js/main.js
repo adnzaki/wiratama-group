@@ -387,6 +387,8 @@
   $(".testimonial3-vertical-slider").slick({
     slidesToScroll: 2,
     arrows: true,
+    //infinite: false,
+    lazyLoad: 'ondemand',
     dots: false,
     vertical: true,
     verticalSwiping: true,
