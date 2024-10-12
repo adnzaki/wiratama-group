@@ -34,7 +34,7 @@
 
         </div>
         <div class="btn-area1 text-center" data-aos="fade-left" data-aos-duration="1200">
-            <a href="<?= base_url('blog') ?>" class="header-btn4">See Our Blog</a>
+            <a href="#" class="header-btn4">See Our Blog</a>
         </div>
     </div>
 </div>

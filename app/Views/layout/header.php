@@ -6,7 +6,7 @@
                 <div class="col-lg-12">
                     <div class="header-elements">
                         <div class="site-logo">
-                            <a href="index.html"><img src="assets/img/logo/<?= $logo ?>" alt=""></a>
+                            <a href="<?= base_url() ?>"><img src="assets/img/logo/<?= $logo ?>" alt=""></a>
                         </div>
                         <div class="main-menu">
                             <ul>
@@ -16,11 +16,12 @@
                                     <ul class="dropdown-padding wr-menu-dropdown">
                                         <li class="menu-small"><a href="#">Wiratama Estate 3 </a>
                                         </li>
-                                        <li class="menu-small"><a href="service2.html">Wiratama Residence 2 </a>
+                                        <li class="menu-small"><a href="#">Wiratama Residence 2 </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="wr-menu-item">About Us</a></li>
+                                <li><a href="#" class="wr-menu-item">Contact</a></li>
                                 <li><a href="#" class="wr-menu-item">Blogs</a></li>
 
                             </ul>
@@ -30,10 +31,10 @@
                                 <a href="#"><img src="assets/img/icons/search-icon1.svg" alt=""> <span></span></a>
                             </div> -->
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#" class="m-0"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a target="_blank" href="<?= $facebookPage ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a target="_blank" href="<?= $instagramProfile ?>"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a target="_blank" href="<?= $youtubeChannel ?>" class="m-0"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a target="_blank" href="<?= $tiktokLink ?>"><i class="fa-brands fa-tiktok"></i></a></li>
                             </ul>
                         </div>
 

@@ -33,6 +33,7 @@
                 </ul>
             </li>
             <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
             <li><a href="#">Blogs</a></li>
         </ul>
 
@@ -77,10 +78,10 @@
 
                         <div class="social-links-mobile-menu">
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a target="_blank" href="<?= $facebookPage ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a target="_blank" href="<?= $instagramProfile ?>"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a target="_blank" href="<?= $youtubeChannel ?>"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a target="_blank" href="<?= $tiktokLink ?>"><i class="fa-brands fa-tiktok"></i></a></li>
                             </ul>
                         </div>
                     </div>

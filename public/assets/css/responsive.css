@@ -1,3 +1,15 @@
 .header-carousel-area3 .owl-nav {
     bottom: 170px;
 }
+
+@media (max-width: 768px) {
+    .footer3-section-area {
+        margin-top: 200px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .footer3-section-area {
+        margin-top: 180px;
+    }
+}
