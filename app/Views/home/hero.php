@@ -35,7 +35,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2"></div>
-                <div class="col-lg-4">
+                <!-- <div class="col-lg-4">
                     <div class="auhtor-box">
                         <div class="others-box">
                             <div class="img3">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

@@ -20,6 +20,6 @@ if (! function_exists('wp')) {
      */
     function wp()
     {
-        return new \WpAdapter('http://localhost/wiratama-blog');
+        return new \WpAdapter(env('wordpress_url'));
     }
 }
