@@ -71,7 +71,7 @@
                             </ul>
                         </div>
                         <div class="arrow">
-                            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="/wiratama-estate-3"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="elements3">

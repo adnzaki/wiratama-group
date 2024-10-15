@@ -28,7 +28,7 @@
             <li><a href="<?= base_url() ?>">Home</a></li>
             <li><a href="#">Products</a>
                 <ul class="sub-menu">
-                    <li><a href="#">Wiratama Estate 3</a></li>
+                    <li><a href="/wiratama-estate-3">Wiratama Estate 3</a></li>
                     <li><a href="#">Wiratama Residence 2</a></li>
                 </ul>
             </li>

@@ -47,7 +47,7 @@ class Home extends BaseController
         return $images;
     }
 
-    private function facilities()
+    public function facilities()
     {
         $facilities = [
             [

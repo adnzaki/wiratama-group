@@ -1,15 +1,22 @@
-.header-carousel-area3 .owl-nav {
-    bottom: 170px;
-}
-
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .footer3-section-area {
         margin-top: 200px;
     }
+
+    .header-carousel-area3 .owl-nav {
+        bottom: 90px !important;
+    }
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer3-section-area {
         margin-top: 180px;
     }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .hide-social-media-header {
+        display: none;
+    }
+}
+

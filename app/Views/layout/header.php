@@ -14,7 +14,7 @@
 
                                 <li><a href="#" class="wr-menu-item">Products <i class="fa-solid fa-angle-down"></i></a>
                                     <ul class="dropdown-padding wr-menu-dropdown">
-                                        <li class="menu-small"><a href="#">Wiratama Estate 3 </a>
+                                        <li class="menu-small"><a href="/wiratama-estate-3">Wiratama Estate 3 </a>
                                         </li>
                                         <li class="menu-small"><a href="#">Wiratama Residence 2 </a>
                                         </li>
@@ -26,7 +26,7 @@
 
                             </ul>
                         </div>
-                        <div class="btn-area-author">
+                        <div class="btn-area-author hide-social-media-header">
                             <!-- <div class="search-icon header__search header-search-btn">
                                 <a href="#"><img src="assets/img/icons/search-icon1.svg" alt=""> <span></span></a>
                             </div> -->
