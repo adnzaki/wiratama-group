@@ -6,6 +6,7 @@ class Products extends BaseController
     {
         $home = new Home();
         $data = [
+            'pageTitle'     => 'Wiratama Estate 3 - Rumah Modern dengan Sentuhan Bali',
             'products'      => $this->productList(),
             'facilities'    => $home->facilities(),
         ];

@@ -1,7 +1,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $siteName ?></title>
+
+    <!-- Meta Description -->
+    <meta name="description" content="Wiratama Group menghadirkan rumah dengan konsep modern, futuristik, dan mewah dengan harga terjangkau. Temukan hunian impian Anda di lokasi strategis.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="wiratama group, rumah mewah, hunian modern, properti, rumah terjangkau, rumah futuristik, perumahan bali, wiratama estate, wiratama residence">
+
+    <!-- Open Graph / Social Media Metadata (optional) -->
+    <meta property="og:title" content="Wiratama Group - Hunian Modern dan Mewah dengan Harga Terjangkau">
+    <meta property="og:description" content="Dapatkan hunian berkualitas dengan konsep modern dan mewah dari Wiratama Group. Cocok untuk keluarga yang menginginkan kenyamanan dan harga terjangkau.">
+    <meta property="og:image" content="https://wiratama-group.com/assets/img/all-images/wiratama-residence-2/wr-residence2-thumb.png">
+    <meta property="og:url" content="https://wiratamagroup.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title><?= $pageTitle ?></title>
 
     <!--=====FAB ICON=======-->
     <link rel="shortcut icon" href="assets/img/logo/wr-favicon.png" type="image/x-icon">

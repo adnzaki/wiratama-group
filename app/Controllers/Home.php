@@ -7,6 +7,7 @@ class Home extends BaseController
     public function index()
     {
         $data = [
+            'pageTitle'             => 'Wiratama Group - Hunian Modern, Mewah, dan Terjangkau',
             'heros'                 => $this->hero(),
             'overview'              => $this->overview(),
             'facilities'            => $this->facilities(),
@@ -107,14 +108,14 @@ class Home extends BaseController
         // all hero images should placed under "public/assets/img/all-images/hero" directory
         $data = [
             [
-                'image'         => 'wr-hero-3.png',
+                'image'         => 'wr-hero-3.webp',
                 'address'       => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
                 'tagline'       => 'Hunian Eksklusif dengan Sentuhan Futuristik',
                 'description'   => 'Kemewahan modern dengan desain inovatif dan teknologi canggih yang menghadirkan kenyamanan sekaligus keanggunan.',
                 'buttonUrl'     => '#',
             ],
             [
-                'image'         => 'wr-hero-4.png',
+                'image'         => 'wr-hero-4.webp',
                 'address'       => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
                 'tagline'       => 'Keanggunan Skandinavia, Hadir di Rumah Anda',
                 'description'   => 'Nikmati keindahan dan kesederhanaan desain Skandinavia yang menyatu sempurna dengan kenyamanan hunian Anda.',
