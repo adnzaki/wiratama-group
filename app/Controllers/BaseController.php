@@ -62,6 +62,7 @@ abstract class BaseController extends Controller
             'siteName'          => 'Wiratama Group',
             'headerTitle'       => 'Wiratama',
             'contactNumber'     => '+62 813-8886-8880',
+            'contactWhatsapp'   => '6281388868880',
             'contactLink'       => 'https://wa.me/6281388868880',
             'email'             => 'marketing@wiratama-group.com',
             'location'          => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',

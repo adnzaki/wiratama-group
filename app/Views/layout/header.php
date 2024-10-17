@@ -16,7 +16,7 @@
                                     <ul class="dropdown-padding wr-menu-dropdown">
                                         <li class="menu-small"><a href="/wiratama-estate-3">Wiratama Estate 3 </a>
                                         </li>
-                                        <li class="menu-small"><a href="#">Wiratama Residence 2 </a>
+                                        <li class="menu-small"><a href="/wiratama-residence-2">Wiratama Residence 2 </a>
                                         </li>
                                     </ul>
                                 </li>

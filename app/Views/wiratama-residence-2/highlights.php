@@ -5,10 +5,10 @@
             <div class="col-lg-5">
                 <div class="images-area">
                     <div class="img1 image-anime reveal">
-                        <img src="assets/img/all-images/products/wiratama-estate-3/wr-estate3-highlight-1.png" alt="">
+                        <img src="assets/img/all-images/products/wiratama-residence-2/w-residence-2-highlights1.webp" alt="">
                     </div>
                     <div class="img2 image-anime reveal">
-                        <img src="assets/img/all-images/products/wiratama-estate-3/wr-estate3-highlight-2.png" alt="">
+                        <img src="assets/img/all-images/products/wiratama-residence-2/w-residence-2-highlights2.webp" alt="">
                     </div>
                     <div class="elements">
                         <img src="assets/img/elements/elements8.png" alt="">
@@ -20,9 +20,12 @@
                 <div class="others-header heading3">
                     <h5 data-aos="fade-left" data-aos-duration="800">Fitur Utama</h5>
                     <div class="space20"></div>
-                    <h2 class="text-anime-style-3">Rumah Modern dengan Sentuhan Bali</h2>
+                    <h2 class="text-anime-style-3">Rumah Modern ala Skandinavia</h2>
                     <div class="space16"></div>
-                    <p data-aos="fade-left" data-aos-duration="1000">Nikmati hunian modern, futuristik, dan mewah dengan desain yang terinspirasi dari rumah adat Bali. Dilengkapi One Gate System, CCTV 24 jam, dan Smart Door Lock. Setiap rumah dirancang untuk fungsionalitas dan kenyamanan, serta berada dekat dengan fasilitas umum seperti rumah sakit, pasar, minimarket, dan ATM.</p>
+                    <p data-aos="fade-left" data-aos-duration="1000">
+                        Rasakan kenyamanan rumah modern berkonsep Skandinavia,
+                        dengan desain minimalis, fungsional, dan penuh cahaya.
+                        Hunian impian Anda kini lebih dari sekadar tempat tinggal.</p>
                     <div class="space24"></div>
                     <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
                         <a href="<?= $sendWhatsapp ?>" target="_blank" class="header-btn3">Kontak Langsung</a>

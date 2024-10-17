@@ -5,16 +5,61 @@ class Products extends BaseController
     public function wiratamaEstate3()
     {
         $home = new Home();
+        $common = $this->commonData();
         $data = [
             'pageTitle'     => 'Wiratama Estate 3 - Rumah Modern dengan Sentuhan Bali',
-            'products'      => $this->productList(),
+            'products'      => $this->wiratamaEstate3Products(),
             'facilities'    => $home->facilities(),
+            'sendWhatsapp'  => 'https://api.whatsapp.com/send?phone=' . $common['contactWhatsapp'] . '&text=Halo,%20saya%20berminat%20dengan%20rumah%20modern%20ala%20Bali%20di%20Wiratama%20Estate%203.',
         ];
 
         return view('wiratama-estate-3/main', array_merge($this->commonData(), $data));
     }
 
-    private function productList()
+    public function wiratamaResidence2()
+    {
+        $home = new Home();
+        $common = $this->commonData();
+        $data = [
+            'pageTitle'     => 'Wiratama Residence 2 - Rumah Modern ala Skandinavia',
+            'productName'   => 'Wiratama Residence 2',
+            'products'      => $this->wiratamaResidence2Products(),
+            'facilities'    => $home->facilities(),
+            'sendWhatsapp'  => 'https://api.whatsapp.com/send?phone='.$common['contactWhatsapp'].'&text=Halo,%20saya%20berminat%20dengan%20rumah%20berkonsep%20Skandinavia%20di%20Wiratama%20Residence%202.',
+        ];
+
+        return view('wiratama-residence-2/main', array_merge($this->commonData(), $data));
+    }
+
+    private function wiratamaResidence2Products()
+    {
+        $data = [
+            [
+                'title' => 'Tipe 36+7,5',
+                'thumbnail' => 'wr-residence-1.webp',
+                'delay' => '800',
+                'bed' => 'x2',
+                'building' => '43,50 m2',
+                'wide' => '72 / 108 / 164 m2',
+                'price' => 'Start from <b>Rp465.000.000</b>',
+                'url' => '#',
+            ],
+            [
+                'title' => 'Tipe 32+5,5',
+                'thumbnail' => 'wr-residence-2.webp',
+                'delay' => '1000',
+                'bed' => 'x2',
+                'building' => '37,5 m2',
+                'wide' => '60 - 149 m2',
+                'price' => 'Start from <b>Rp400.000.000</b>',
+                'url' => '#',
+            ],
+        ];
+
+        return $data;
+    }
+
+    private function wiratamaEstate3Products()
     {
         $data = [
             [
