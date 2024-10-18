@@ -50,3 +50,8 @@
 .footer3-section-area .footer3-bottom-section .footer-bottom-area {
     margin-top: -150px;
 }
+
+.disabled-button {
+    background-color: rgb(122, 130, 126);
+    pointer-events: none;
+}

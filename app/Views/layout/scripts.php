@@ -1,3 +1,7 @@
+<script>
+    const baseURL = "<?= base_url() ?>";
+</script>
+
 <!--===== JS SCRIPT LINK =======-->
 <script src="assets/js/plugins/bootstrap.min.js"></script>
 <script src="assets/js/plugins/fontawesome.js"></script>
@@ -15,3 +19,4 @@
 <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
 <script src="assets/js/plugins/Splitetext.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/app.js"></script>

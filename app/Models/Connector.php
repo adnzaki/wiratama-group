@@ -2,10 +2,19 @@
 
 class Connector
 {
-    public $wp;
+    public $db;
 
     public function __construct()
     {
-        $this->wp = db_connect('wp');
+        $this->db = db_connect(); // connect to default database
+    }
+
+    public function setOnUpdateTimestamp(string $field, string $table): void
+    {
+        $query =    "ALTER TABLE `{$table}`
+					CHANGE `{$field}` `{$field}` TIMESTAMP NULL
+                    on update CURRENT_TIMESTAMP NULL";
+
+        $this->db->simpleQuery($query);
     }
 }

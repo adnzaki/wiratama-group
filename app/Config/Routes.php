@@ -8,6 +8,10 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('wiratama-estate-3', 'Products::wiratamaEstate3');
 $routes->get('wiratama-residence-2', 'Products::wiratamaResidence2');
+$routes->get('dev-page', 'Development::developmentPage');
+$routes->get('dev-page/test-response', 'Development::testResponse');
+$routes->post('dev-page/generate-password', 'Development::generatePassword');
+$routes->post('dev-page/run-task', 'Development::createProductTable');
 $routes->group('test', function (RouteCollection $routes) {
     $routes->get('common', 'Test::commontTest');
 });
