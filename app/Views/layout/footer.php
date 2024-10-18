@@ -8,7 +8,7 @@
                     <div class="footer-bottom-area">
                         <div class="footer-menu-area">
                             <div class="footer-logo">
-                                <a href="#"><img src="assets/img/logo/<?= $logo ?>" alt=""></a>
+                                <a href="#"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
                             </div>
                             <div class="footer-menu">
                                 <ul>

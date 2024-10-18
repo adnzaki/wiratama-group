@@ -6,7 +6,7 @@
                 <div class="col-lg-12">
                     <div class="header-elements">
                         <div class="site-logo">
-                            <a href="<?= base_url() ?>"><img src="assets/img/logo/<?= $logo ?>" alt=""></a>
+                            <a href="<?= base_url() ?>"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
                         </div>
                         <div class="main-menu">
                             <ul>
@@ -28,7 +28,7 @@
                         </div>
                         <div class="btn-area-author hide-social-media-header">
                             <!-- <div class="search-icon header__search header-search-btn">
-                                <a href="#"><img src="assets/img/icons/search-icon1.svg" alt=""> <span></span></a>
+                                <a href="#"><img src="<?= $img ?>icons/search-icon1.svg" alt=""> <span></span></a>
                             </div> -->
                             <ul>
                                 <li><a target="_blank" href="<?= $facebookPage ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -43,7 +43,7 @@
                             <div class="header-search-container">
                                 <form role="search" class="search-form">
                                     <input type="search" class="search-field" placeholder="Search …" value="" name="s">
-                                    <button type="submit" class="search-submit"><img src="assets/img/icons/search-icon1.svg" alt=""></button>
+                                    <button type="submit" class="search-submit"><img src="<?= $img ?>icons/search-icon1.svg" alt=""></button>
                                 </form>
                             </div>
                         </div>

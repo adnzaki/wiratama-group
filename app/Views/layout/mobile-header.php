@@ -4,7 +4,7 @@
         <div class="col-12">
             <div class="mobile-header-elements">
                 <div class="mobile-logo">
-                    <a href="index.html"><img src="assets/img/logo/<?= $logo ?>" alt=""></a>
+                    <a href="index.html"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
                 </div>
                 <div class="mobile-nav-icon dots-menu">
                     <i class="fa-solid fa-bars"></i>
@@ -17,7 +17,7 @@
 <div class="mobile-sidebar mobile-sidebar3">
     <div class="logosicon-area">
         <div class="logos">
-            <img src="assets/img/logo/<?= $logo ?>" alt="">
+            <img src="<?= $img ?>logo/<?= $logo ?>" alt="">
         </div>
         <div class="menu-close">
             <i class="fa-solid fa-xmark"></i>

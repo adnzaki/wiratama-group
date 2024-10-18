@@ -21,7 +21,7 @@
 
                 <div class="amenities-boxarea">
                     <div class="img1">
-                        <img src="assets/img/all-images/service/<?= $facility['img'] ?>" alt="">
+                        <img src="<?= $img ?>all-images/service/<?= $facility['img'] ?>" alt="">
                     </div>
                     <div class="space32"></div>
                     <div class="content-area">

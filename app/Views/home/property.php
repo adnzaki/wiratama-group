@@ -5,13 +5,13 @@
             <div class="col-lg-6">
                 <div class="property-images-area">
                     <div class="img1 reveal image-anime">
-                        <img src="assets/img/all-images/property/<?= $overview['image1'] ?>" alt="">
+                        <img src="<?= $img ?>all-images/property/<?= $overview['image1'] ?>" alt="">
                     </div>
                     <div class="img2 reveal image-anime">
-                        <img src="assets/img/all-images/property/<?= $overview['image2'] ?>" alt="">
+                        <img src="<?= $img ?>all-images/property/<?= $overview['image2'] ?>" alt="">
                     </div>
                     <div class="elements reveal image-anime">
-                        <img src="assets/img/elements/elements9.png" alt="">
+                        <img src="<?= $img ?>elements/elements9.png" alt="">
                     </div>
                 </div>
             </div>

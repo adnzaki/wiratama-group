@@ -1,5 +1,5 @@
 <!--===== PRELOADER STARTS =======-->
-<div class="preloader" style="background-image: url('assets/img/logo/preloader.gif');"></div>
+<div class="preloader" style="background-image: url('<?= $img ?>logo/preloader.gif');"></div>
 <!--===== PRELOADER ENDS =======-->
 
 <!--===== PROGRESS STARTS=======-->

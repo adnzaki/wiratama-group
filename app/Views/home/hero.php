@@ -3,17 +3,17 @@
     <?php foreach($heros as $hero): ?>
     <div class="main-hero-area">
         <div class="img1">
-            <img width="1333" height="1250" src="assets/img/all-images/hero/<?= $hero['image'] ?>" alt="">
+            <img width="1333" height="1250" src="<?= $img ?>all-images/hero/<?= $hero['image'] ?>" alt="">
         </div>
         <div class="bg-elements">
-            <img src="assets/img/elements/elements7.png" alt="" class="elements2">
+            <img src="<?= $img ?>elements/elements7.png" alt="" class="elements2">
         </div>
         <div class="container" style="margin-top: -70px;"  >
             <div class="row">
                 <div class="col-lg-5 col-md-9">
                     <div class="header-content-area header-heading">
                         <div class="elements">
-                            <img src="assets/img/elements/elements3.png" alt="">
+                            <img src="<?= $img ?>elements/elements3.png" alt="">
                         </div>
                         <div class="header-heading2">
                             <h5><i class="fa-solid fa-location-dot"></i><?= $hero['address'] ?></h5>
@@ -39,7 +39,7 @@
                     <div class="auhtor-box">
                         <div class="others-box">
                             <div class="img3">
-                                <img src="assets/img/all-images/others/others-img1.png" alt="">
+                                <img src="<?= $img ?>all-images/others/others-img1.png" alt="">
                             </div>
                             <div class="text">
                                 <h3>Luxury Suite Villa</h3>
