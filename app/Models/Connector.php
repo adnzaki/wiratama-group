@@ -13,6 +13,7 @@ class Connector
     {
         $query =    "ALTER TABLE `{$table}`
 					CHANGE `{$field}` `{$field}` TIMESTAMP NULL
+                    DEFAULT CURRENT_TIMESTAMP
                     on update CURRENT_TIMESTAMP NULL";
 
         $this->db->simpleQuery($query);
