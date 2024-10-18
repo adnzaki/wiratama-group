@@ -61,6 +61,7 @@ class Products extends BaseController
 
     private function wiratamaEstate3Products()
     {
+        $baseURL = base_url('wiratama-estate-3/view/');
         $data = [
             [
                 'title' => 'Tipe Bima A & B',
@@ -71,7 +72,7 @@ class Products extends BaseController
                 'electricity' => '1300 watt',
                 'wide' => '30 x 60 / 96 m2',
                 'price' => 'Start from <b>Rp575.000.000</b>',
-                'url' => '#',
+                'url' => $baseURL . 'bima',
             ],
             [
                 'title' => 'Tipe Arjuna A, B, C & D',
@@ -82,7 +83,7 @@ class Products extends BaseController
                 'electricity' => '2200 watt',
                 'wide' => '50 x 60 / 75 / 96 / 120 m2',
                 'price' => 'Start from <b>Rp812.500.000</b>',
-                'url' => '#',
+                'url' => $baseURL . 'arjuna',
             ],
             [
                 'title' => 'Ruko Hunian 2 Lantai',
@@ -91,9 +92,9 @@ class Products extends BaseController
                 'bath' => 'x1',
                 'bed' => 'x1',
                 'electricity' => '2200 watt',
-                'wide' => '58 x 85 m2',
+                'wide' => '63 x 60 m2',
                 'price' => 'Start from <b>Rp1.187.500.000</b>',
-                'url' => '#',
+                'url' => $baseURL . 'ruko-hunian',
             ],
         ];
 

@@ -71,6 +71,9 @@ abstract class BaseController extends Controller
             'youtubeChannel'    => 'https://www.youtube.com/@WiratamaGroup',
             'instagramProfile'  => 'https://www.instagram.com/wiratamagroupofficial/',
             'tiktokLink'        => 'https://www.tiktok.com/@wiratamaestate3?_t=8qSUpxecz9r&_r=1',
+            'css'               => base_url('assets/css/'),
+            'js'                => base_url('assets/js/'),
+            'img'               => base_url('assets/img/'),
         ];
 
         return $data;

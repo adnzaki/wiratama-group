@@ -6,7 +6,11 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
-$routes->get('wiratama-estate-3', 'Products::wiratamaEstate3');
+$routes->group('wiratama-estate-3', function (RouteCollection $routes) {
+    $routes->get('/', 'Products::wiratamaEstate3');
+    $routes->get('view/(:any)', 'SingleProduct::index/$1');
+});
+
 $routes->get('wiratama-residence-2', 'Products::wiratamaResidence2');
 $routes->get('dev-page', 'Development::developmentPage');
 $routes->get('dev-page/test-response', 'Development::testResponse');

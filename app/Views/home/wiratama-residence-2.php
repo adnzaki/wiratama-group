@@ -11,7 +11,7 @@
                     <p data-aos="fade-left" data-aos-duration="1000">Wiratama Residence 2 dirangcang menghadirkan kesederhanaan dan kenyamanan dalam setiap sudut untuk keluarga yang menginginkan kehidupan modern dan kehangatan rumah.</p>
                     <div class="space32"></div>
                     <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
-                        <a href="#" class="header-btn4">Jelajahi lebih lanjut</a>
+                        <a href="/wiratama-residence-2" class="header-btn4">Jelajahi lebih lanjut</a>
                     </div>
                 </div>
                 <div class="space40"></div>
