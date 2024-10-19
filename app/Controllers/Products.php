@@ -71,7 +71,7 @@ class Products extends BaseController
                 'bed' => 'x2',
                 'electricity' => '1300 watt',
                 'wide' => '30 x 60 / 96 m2',
-                'price' => 'Start from <b>Rp575.000.000</b>',
+                'price' => 'Start from <b>Rp460.000.000</b>',
                 'url' => $baseURL . 'bima',
             ],
             [
@@ -82,7 +82,7 @@ class Products extends BaseController
                 'bed' => 'x2',
                 'electricity' => '2200 watt',
                 'wide' => '50 x 60 / 75 / 96 / 120 m2',
-                'price' => 'Start from <b>Rp812.500.000</b>',
+                'price' => 'Start from <b>Rp650.000.000</b>',
                 'url' => $baseURL . 'arjuna',
             ],
             [
@@ -93,7 +93,7 @@ class Products extends BaseController
                 'bed' => 'x1',
                 'electricity' => '2200 watt',
                 'wide' => '63 x 60 m2',
-                'price' => 'Start from <b>Rp1.187.500.000</b>',
+                'price' => 'Start from <b>Rp950.000.000</b>',
                 'url' => $baseURL . 'ruko-hunian',
             ],
         ];
