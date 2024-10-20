@@ -63,3 +63,15 @@
 .custom-alert {
     border: none;
 }
+
+.apartment-details-left .apartment-author-area ul {
+    color: var(--ztc-text-text-9);
+    font-family: var(--ztc-family-font2);
+    font-size: var(--ztc-font-size-font-s16);
+    font-style: normal;
+    font-weight: var(--ztc-weight-medium);
+    line-height: 26px;
+    display: inline-block;
+    transition: all 0.4s;
+    text-align: justify;
+}

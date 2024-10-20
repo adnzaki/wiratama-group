@@ -18,7 +18,7 @@ class SingleProduct extends BaseController
     public function index($permalink)
     {
         $commonData = $this->commonData();
-        $field = 'tb_products.id as product_id, product_name, property_name, property_url, description, hero1, hero2, featured_image, features';
+        $field = '*, tb_products.id as product_id';
         $getProduct = $this->productModel
                            ->select($field)
                            ->join('tb_property', 'tb_products.property_id = tb_property.id')
@@ -26,13 +26,20 @@ class SingleProduct extends BaseController
                            ->first();
 
         // get other products
-        $otherProducts = $this->productModel->where('id !=', $getProduct['product_id'])->findAll(5);
+        $otherProducts = $this->productModel
+                              ->select($field)
+                              ->join('tb_property', 'tb_products.property_id = tb_property.id')
+                              ->where('tb_products.id !=', $getProduct['product_id'])
+                              ->findAll(5);
 
         // get image gallery
         $gallery = $this->galleryModel->where('product_id', $getProduct['product_id'])->findAll();
         $getProduct['gallery'] = $gallery;
 
-        $contactMessage = 'Saya berminat dengan rumah tipe ' . $getProduct['product_name'] . '. Mohon informasi lebih lanjut.';
+        $propertyURL = $getProduct['property_url'];
+        $tipe = $propertyURL === 'wiratama-residence-2' ? '' : 'tipe ';
+
+        $contactMessage = "Saya berminat dengan rumah {$tipe}"  . $getProduct['product_name'] . '. Mohon informasi lebih lanjut.';
 
         $data = [
             'pageTitle'         => $getProduct['product_name'] . ' - ' . $getProduct['property_name'],
@@ -40,7 +47,6 @@ class SingleProduct extends BaseController
             'details'           => $getProduct,
             'otherProducts'     => $otherProducts,
             'baseImageURL'      => $commonData['img'] . 'all-images/products/',
-            'baseProductURL'    => base_url($getProduct['property_url'] . '/view/'),
             'contactMessage'    => $contactMessage
         ];
 

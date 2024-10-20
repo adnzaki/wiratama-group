@@ -8,7 +8,7 @@
                         <h3>Properti Lainnya</h3>
 
                         <?php foreach ($otherProducts as $product): ?>
-                            <?php $productLink = $baseProductURL . $product['permalink']; ?>
+                            <?php $productLink = base_url() . $product['property_url'] . '/view/' . $product['permalink']; ?>
                             <div class="space30"></div>
                             <div class="row align-items-center">
                                 <div class="col-lg-5 col-md-6">
