@@ -77,7 +77,7 @@
                     <div class="space40"></div>
                     <h3>Fitur Utama</h3>
                     <div class="space20"></div>
-                    <p>Berikut adalah fitur utama yang bisa anda dapatkan dari tipe <?= $details['product_name'] ?>:</p>
+                    <p>Berikut adalah fitur utama yang bisa anda dapatkan dari <?= $details['property_url'] === 'wiratama-residence-2' ? '' : 'tipe' ?> <?= $details['product_name'] ?>:</p>
                     <div class="space20"></div>
                     <div class="row">
                         <?php
