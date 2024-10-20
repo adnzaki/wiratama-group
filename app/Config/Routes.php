@@ -11,6 +11,11 @@ $routes->group('wiratama-estate-3', function (RouteCollection $routes) {
     $routes->get('view/(:any)', 'SingleProduct::index/$1');
 });
 
+$routes->group('wiratama-residence-2', function (RouteCollection $routes) {
+    $routes->get('/', 'Products::wiratamaResidence2');
+    $routes->get('view/(:any)', 'SingleProduct::index/$1');
+});
+
 $routes->get('wiratama-residence-2', 'Products::wiratamaResidence2');
 $routes->get('dev-page', 'Development::developmentPage');
 $routes->get('dev-page/test-response', 'Development::testResponse');

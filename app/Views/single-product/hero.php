@@ -1,6 +1,6 @@
 <!--===== HERO AREA STARTS =======-->
 <div class="inner-main-hero-area">
-    <div class="img1">
+    <div class="img1 <?= ($details['property_url'] === 'wiratama-residence-2' ? 'w-residence-2-hero1' : '') ?>">
         <img src="<?= $img ?>all-images/products/<?= $details['hero1'] ?>" alt="">
     </div>
     <div class="img2">
@@ -24,7 +24,8 @@
                 <div class="auhtor-box">
                     <div class="others-box">
                         <div class="img3">
-                            <img src="<?//= $img ?>all-images/others/others-img1.png" alt="">
+                            <img src="<? //= $img 
+                                        ?>all-images/others/others-img1.png" alt="">
                         </div>
                         <div class="text">
                             <h3>Luxury Suite Villa</h3>

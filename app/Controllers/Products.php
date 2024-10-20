@@ -33,6 +33,7 @@ class Products extends BaseController
 
     private function wiratamaResidence2Products()
     {
+        $baseURL = base_url('wiratama-residence-2/view/');
         $data = [
             [
                 'title' => 'Tipe 36+7,5',
@@ -42,7 +43,7 @@ class Products extends BaseController
                 'building' => '43,50 m2',
                 'wide' => '72 / 108 / 164 m2',
                 'price' => 'Start from <b>Rp465.000.000</b>',
-                'url' => '#',
+                'url' => $baseURL . 'tipe-435',
             ],
             [
                 'title' => 'Tipe 32+5,5',
@@ -52,7 +53,7 @@ class Products extends BaseController
                 'building' => '37,5 m2',
                 'wide' => '60 - 149 m2',
                 'price' => 'Start from <b>Rp400.000.000</b>',
-                'url' => '#',
+                'url' => $baseURL . 'tipe-375',
             ],
         ];
 
