@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Oct 20, 2024 at 09:45 AM
+-- Generation Time: Oct 20, 2024 at 09:55 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -98,8 +98,8 @@ INSERT INTO `tb_product_gallery` (`id`, `product_id`, `image_file`, `created_at`
 
 CREATE TABLE `tb_property` (
   `id` int NOT NULL,
-  `property_name` varchar(255) NOT NULL,
-  `property_url` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `property_name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `property_url` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `modified_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
