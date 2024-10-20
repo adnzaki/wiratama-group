@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="35"
+   viewBox="0 0 40 35"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="apartment-icon-building.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="11"
+     inkscape:cx="36.727273"
+     inkscape:cy="22.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <circle
+     cx="16.029303"
+     cy="18.962345"
+     r="16"
+     fill="#14453d"
+     fill-opacity="0.1"
+     id="circle1" />
+  <defs
+     id="defs5">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6">
+      <g
+         id="g7">
+        <rect
+           width="32"
+           height="32"
+           fill="#ffffff"
+           id="rect6"
+           x="8"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7">
+      <g
+         id="g8">
+        <rect
+           width="32"
+           height="32"
+           fill="#ffffff"
+           id="rect7"
+           x="8"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8">
+      <g
+         id="g9">
+        <rect
+           width="32"
+           height="32"
+           fill="#ffffff"
+           id="rect8"
+           x="8"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9">
+      <g
+         id="g10">
+        <rect
+           width="32"
+           height="32"
+           fill="#ffffff"
+           id="rect9"
+           x="8"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10">
+      <g
+         id="g11">
+        <rect
+           width="32"
+           height="32"
+           fill="#ffffff"
+           id="rect10"
+           x="8"
+           y="0" />
+      </g>
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10-4">
+      <g
+         id="g11-4">
+        <rect
+           width="32"
+           height="32"
+           fill="#ffffff"
+           id="rect10-9"
+           x="8"
+           y="0" />
+      </g>
+    </clipPath>
+  </defs>
+  <path
+     d="M 17.715088,31.199821 V 15.216204 c 0,-0.95246 0,-1.428562 0.160036,-1.792284 0.140777,-0.32001 0.365382,-0.580169 0.64165,-0.743061 0.314084,-0.185416 0.72525,-0.185416 1.547552,-0.185416 h 9.984182 c 0.822411,0 1.233482,0 1.547647,0.185416 0.27635,0.162892 0.500791,0.423051 0.641609,0.743061 0.160064,0.363722 0.160064,0.839824 0.160064,1.792284 V 31.199821 M 22.119894,19.297141 h 5.873127 m -5.873127,6.80151 h 5.873127 M 11.842014,13.325474 V 28.47925 c 0,0.952114 0,1.428328 0.160024,1.792158 0.140777,0.319882 0.365397,0.579964 0.641665,0.743045 0.314082,0.185368 0.725235,0.185368 1.547537,0.185368 h 21.730436 c 0.822275,0 1.23348,0 1.547508,-0.185368 0.276351,-0.163081 0.500794,-0.423163 0.641612,-0.743045 0.160064,-0.36383 0.160064,-0.840044 0.160064,-1.792158 V 13.325474 c 0,-1.82578 0,-2.738701 -0.239623,-3.5452195 C 37.819402,9.0670321 37.473659,8.4170959 37.018675,7.8772348 36.5046,7.2667738 35.800372,6.8562942 34.39219,6.0353038 l -6.166731,-3.595133 c -1.161785,-0.6772 -1.742406,-1.015808 -2.352032,-1.1490505 -0.539961,-0.1180179 -1.094019,-0.1180179 -1.63398,0 -0.609585,0.1332425 -1.190274,0.4718349 -2.351964,1.1490505 l -6.166731,3.595133 c -1.408223,0.8209904 -2.112356,1.23147 -2.626675,1.841931 -0.454819,0.5398611 -0.80063,1.1897973 -1.012482,1.9030197 -0.239581,0.8065185 -0.239581,1.7194555 -0.239581,3.5452195 z"
+     stroke="#007f5f"
+     stroke-width="2.04195"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1-7"
+     style="stroke:#14453d;stroke-opacity:1" />
+</svg>

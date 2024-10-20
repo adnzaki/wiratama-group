@@ -55,3 +55,7 @@
     background-color: rgb(122, 130, 126);
     pointer-events: none;
 }
+
+.text-justify {
+    text-align: justify;
+}

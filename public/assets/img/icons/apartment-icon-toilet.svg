@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="40"
+   height="35"
+   viewBox="0 0 40 35"
+   fill="none"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="apartment-icon-toilet.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="15.556349"
+     inkscape:cx="18.384776"
+     inkscape:cy="20.281108"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <circle
+     cx="16"
+     cy="19"
+     r="16"
+     fill="#14453D"
+     fill-opacity="0.1"
+     id="circle1" />
+  <defs
+     id="defs5"><clipPath
+   id="clip0_11333_1800">
+  <rect
+     width="32"
+     height="32"
+     fill="white"
+     transform="translate(8)"
+     id="rect5" />
+</clipPath>
+
+			
+				
+			
+			
+			
+			
+			
+			
+		</defs>
+  <g
+     id="g6"
+     transform="matrix(1.2820763,0,0,1.2820763,23.588573,-15.500688)">
+    <circle
+       transform="rotate(-74.662972)"
+       class="st3"
+       cx="-14.188651"
+       cy="4.4997535"
+       id="ellipse15"
+       r="2.5204439"
+       style="fill:#14453d;fill-opacity:1;stroke:#14453d;stroke-width:0.341061;stroke-opacity:1" />
+    <polygon
+       class="st5"
+       points="244.37,234.79 247.65,234.79 250.88,257.58 244.37,257.58 "
+       id="polygon15"
+       style="fill:#14453d;fill-opacity:0.1;stroke:#14453d;stroke-width:6.982;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
+       transform="matrix(0.34105671,0,0,0.34105671,-83.472928,-60.160965)" />
+    <path
+       class="st4"
+       d="M 8.3531806,21.979133 5.4200929,23.970904 C 5.0926785,24.192591 4.6493047,24.134611 4.3901016,23.834482 L 0.9931768,19.91574"
+       id="path16"
+       style="fill:#14453d;fill-opacity:0.1;stroke:#14453d;stroke-width:2.38126;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
+    <path
+       class="st4"
+       d="M 10.280151,36.613876 7.9370914,28.810499 C 7.735868,28.142028 7.1219659,27.685012 6.4262102,27.685012 H 2.09479"
+       id="path17"
+       style="fill:#14453d;fill-opacity:0.1;stroke:#14453d;stroke-width:2.38126;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
+    <path
+       class="st3"
+       d="M -2.8232478,37.770059 H -7.6935376 V 22.408864 c 0,-0.528637 0.4297314,-0.958369 0.9583693,-0.958369 h 2.182763 c 0.9583693,0 1.7325681,0.774199 1.7325681,1.732568 v 14.586996 z"
+       id="path18"
+       style="fill:#14453d;fill-opacity:1;stroke:#14453d;stroke-width:0.341057;stroke-opacity:1" />
+    <path
+       class="st3"
+       d="m -0.3130704,36.054543 h -4.1131439 v -5.900281 h 8.8640639 c 0.8185361,0 1.401743,0.794663 1.1527716,1.575682 v 0 c -0.8151255,2.574979 -3.205933,4.324599 -5.9036916,4.324599 z"
+       id="path19"
+       style="fill:#14453d;fill-opacity:1;stroke:#14453d;stroke-width:0.341057;stroke-opacity:1" />
+    <polygon
+       class="st3"
+       points="236.47,287.14 245.72,287.14 250.43,279.33 236.47,279.33 "
+       id="polygon19"
+       style="fill:#14453d;fill-opacity:1;stroke:#14453d;stroke-opacity:1"
+       transform="matrix(0.34105671,0,0,0.34105671,-83.472928,-60.160965)" />
+  </g>
+</svg>

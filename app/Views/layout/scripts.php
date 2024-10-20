@@ -1,5 +1,6 @@
 <script>
     const baseURL = "<?= base_url() ?>";
+    const whatsappNumber = <?= $contactWhatsapp ?>;
 </script>
 
 <!--===== JS SCRIPT LINK =======-->

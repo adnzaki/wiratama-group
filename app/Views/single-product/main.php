@@ -14,6 +14,7 @@
     <!-- Content goes here -->
     <?= view('single-product/hero') ?>
 
+    <?= view('single-product/property-detail') ?>
 
     <div class="space50" style="margin-bottom: 100px;"></div>
    
