@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="details-leftarea">
-                    
+
                     <div class="apartment-details-list">
                         <h3>Properti Lainnya</h3>
 
@@ -110,19 +110,26 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="input-area">
-                                    <input type="text" placeholder="Your Name*" v-model="contactName">
+                                    <input type="text" required placeholder="Your Name*" v-model="contactName">
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="input-area">
-                                    <textarea name="#" id="#" v-model="contactMessage" placeholder="Your Message"></textarea>
+                                    <textarea name="#" id="#" required v-model="contactMessage" placeholder="Your Message"></textarea>
                                 </div>
                             </div>
                             <div class="space24"></div>
                             <div class="col-lg-12">
+                                <div class="alert alert-danger custom-alert" v-if="showWarning" role="alert">
+                                    Silakan isi form pesan dengan lengkap!
+                                </div>
+                            </div>
+                            <div class="space24"></div>
+
+                            <div class="col-lg-12">
                                 <div class="input-area text-end">
                                     <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
-                                        <a :href="whatsappLink" target="_blank" class="header-btn4">Kirim Pesan</a>
+                                        <a href="javascript:void()" @click="sendWhatsapp" class="header-btn4">Kirim Pesan</a>
                                     </div>
                                 </div>
                                 <!-- <button type="button" class="header-btn4">Send Message</button> -->

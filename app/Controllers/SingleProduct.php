@@ -32,6 +32,8 @@ class SingleProduct extends BaseController
         $gallery = $this->galleryModel->where('product_id', $getProduct['product_id'])->findAll();
         $getProduct['gallery'] = $gallery;
 
+        $contactMessage = 'Saya berminat dengan rumah tipe ' . $getProduct['product_name'] . '. Mohon informasi lebih lanjut.';
+
         $data = [
             'pageTitle'         => $getProduct['product_name'] . ' - ' . $getProduct['property_name'],
             'propertyURL'       => $getProduct['property_url'],
@@ -39,6 +41,7 @@ class SingleProduct extends BaseController
             'otherProducts'     => $otherProducts,
             'baseImageURL'      => $commonData['img'] . 'all-images/products/',
             'baseProductURL'    => base_url($getProduct['property_url'] . '/view/'),
+            'contactMessage'    => $contactMessage
         ];
 
         return view('single-product/main', array_merge($commonData, $data));

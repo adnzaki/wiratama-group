@@ -16,14 +16,29 @@ createApp({
     const title = ref(defaultTitle);
     const password = ref('')
     const disableButton = ref(false)
-    const contactMessage = ref('Saya berminat dengan rumah ini.')
+    const contactMessage = ref('')
     const contactName = ref('')
+    const showWarning = ref(false)
 
     const whatsappLink = computed(() => {
       return `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Halo,%20saya%20${contactName.value}.%20${contactMessage.value}`;
     })
 
+    const sendWhatsapp = () => {
+      if(contactName.value === '' || contactMessage.value === '') {
+        showWarning.value = true
+        setTimeout(() => {
+          showWarning.value = false          
+        }, 5000);
+        
+        return
+      }
+
+      window.open(whatsappLink.value, '_blank');
+    }
+
     onMounted(() => {
+      contactMessage.value = propertyRequestText
       $(".details-slider").owlCarousel({
         loop: true,
         margin: 30,
@@ -93,11 +108,13 @@ createApp({
     return {
       title,
       password,
-      disableButton,
+      showWarning,
       contactName,
       whatsappLink,
+      disableButton,
       contactMessage,
-      runTask
+      runTask,
+      sendWhatsapp,
     };
   },
 }).mount("#app");

@@ -1,6 +1,7 @@
 <script>
     const baseURL = "<?= base_url() ?>";
-    const whatsappNumber = <?= $contactWhatsapp ?>;
+    const whatsappNumber = "<?= $contactWhatsapp ?>";
+    const propertyRequestText = "<?= $contactMessage ?? '' ?>";
 </script>
 
 <!--===== JS SCRIPT LINK =======-->
@@ -20,4 +21,4 @@
 <script src="<?= $js ?>plugins/ScrollTrigger.min.js"></script>
 <script src="<?= $js ?>plugins/Splitetext.js"></script>
 <script src="<?= $js ?>main.js"></script>
-<script src="<?= $js ?>app.js"></script>
+<script defer src="<?= $js ?>app.js"></script>
