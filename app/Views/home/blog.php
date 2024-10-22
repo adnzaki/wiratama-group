@@ -16,12 +16,12 @@
                 <div class="col-lg-4 col-md-6" data-aos="zoom-in-up" data-aos-duration="800">
                     <div class="blog-boxarea">
                         <div class="img1 image-anime">
-                            <img src="<?= $post->media ?>" alt="">
+                            <img src="<?= $post->media ?>" alt="Featured Image Post">
                         </div>
                         <div class="content-area">
                             <ul>
-                                <li><a href="#"><img src="<?= $img ?>icons/user.svg" alt=""> <?= $post->author ?></a> <span> | </span></li>
-                                <li><a href="#"><img src="<?= $img ?>icons/calender.svg" alt=""> <?= os_date()->create($post->date, 'd-M-y') ?></a></li>
+                                <li><a href="#"><img src="<?= $img ?>icons/user.svg" alt="Icon User"> <?= $post->author ?></a> <span> | </span></li>
+                                <li><a href="#"><img src="<?= $img ?>icons/calender.svg" alt="Icon Tanggal"> <?= os_date()->create($post->date, 'd-M-y') ?></a></li>
                             </ul>
                             <div class="space20"></div>
                             <a href="<?= $post->url ?>"><?= $post->title ?></a>

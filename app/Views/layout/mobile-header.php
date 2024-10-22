@@ -34,7 +34,7 @@
             </li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Blogs</a></li>
+            <li><a href="/blogs">Blogs</a></li>
         </ul>
 
         <div class="allmobilesection">

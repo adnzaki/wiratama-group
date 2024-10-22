@@ -1,4 +1,17 @@
 <?php
+if (! function_exists('remove_index_from_url')) {
+    /**
+     * Remove index.php from url
+     * 
+     * @param string $url
+     * 
+     * @return string
+     */
+    function remove_index_from_url($url)
+    {
+        return str_replace('/index.php', '', $url);
+    }
+}
 
 if (! function_exists('os_date')) {
     /**

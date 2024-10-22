@@ -12,11 +12,11 @@
                             </div>
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="<?= base_url() ?>">Home</a></li>
                                     <li class="space24"></li>
-                                    <li><a href="#">Wiratama Estate 3</a></li>
+                                    <li><a href="/wiratama-estate-3">Wiratama Estate 3</a></li>
                                     <li class="space24"></li>
-                                    <li><a href="#">Wiratama Residence 2</a></li>
+                                    <li><a href="/wiratama-residence-2">Wiratama Residence 2</a></li>
                                 </ul>
                             </div>
                             <div class="footer-menu">
@@ -25,7 +25,7 @@
                                     <li class="space24"></li>
                                     <li><a href="#">Contact</a></li>
                                     <li class="space24"></li>
-                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="/blogs">Blogs</a></li>
                                 </ul>
                             </div>
                             <div class="footer-menu2">

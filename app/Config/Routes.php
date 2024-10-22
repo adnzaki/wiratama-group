@@ -16,7 +16,11 @@ $routes->group('wiratama-residence-2', function (RouteCollection $routes) {
     $routes->get('view/(:any)', 'SingleProduct::index/$1');
 });
 
-$routes->get('wiratama-residence-2', 'Products::wiratamaResidence2');
+$routes->group('blogs', function (RouteCollection $routes) {
+    $routes->get('/', 'Blogs::index');
+    $routes->get('(:alpha)/(:any)', 'Blogs::index/$1/$2');
+});
+
 $routes->get('dev-page', 'Development::developmentPage');
 $routes->get('dev-page/test-response', 'Development::testResponse');
 $routes->post('dev-page/generate-password', 'Development::generatePassword');

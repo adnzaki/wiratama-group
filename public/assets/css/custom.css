@@ -23,7 +23,8 @@
     padding: 25px 20px !important;
 }
 
-.blog3-section-area .blog-boxarea .img1 {
+.blog3-section-area .blog-boxarea .img1,
+.blog-inner-section-area .blog-boxarea .img1 {
     height: 420px;
 }
 
