@@ -1,5 +1,5 @@
 <!--===== PROPERTY AREA STARTS =======-->
-<div class="property3-section-area sp6">
+<div class="property3-section-area sp6" id="get-started">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">

@@ -112,14 +112,14 @@ class Home extends BaseController
                 'address'       => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
                 'tagline'       => 'Hunian Eksklusif dengan Sentuhan Futuristik',
                 'description'   => 'Kemewahan modern dengan desain inovatif dan teknologi canggih yang menghadirkan kenyamanan sekaligus keanggunan.',
-                'buttonUrl'     => '#',
+                'buttonUrl'     => 'javascript:void(0)',
             ],
             [
                 'image'         => 'wr-hero-4.webp',
                 'address'       => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
                 'tagline'       => 'Keanggunan Skandinavia, Hadir di Rumah Anda',
                 'description'   => 'Nikmati keindahan dan kesederhanaan desain Skandinavia yang menyatu sempurna dengan kenyamanan hunian Anda.',
-                'buttonUrl'     => '#',
+                'buttonUrl'     => 'javascript:void(0)',
             ]
         ];
 

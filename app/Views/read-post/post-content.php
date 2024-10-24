@@ -15,7 +15,7 @@
         <p><?= $post->content ?></p>
         <div class="space20"></div>
         <p>
-            <i class="fa-solid fa-layer-group"></i>
+            <i class="fa-solid fa-layer-group"></i>&nbsp;
             <?php foreach ($categories as $index => $category): ?>
                 <a href="<?= base_url('blogs/category/' . $category->slug) ?>"><?= $category->name ?></a>
                 <?= $index + 1 < count($categories) ? ',' : '' ?>
@@ -24,7 +24,7 @@
         </p>
         <div style="margin-top: -10px;"></div>
         <p>
-            <i class="fa-solid fa-tag"></i>
+            <i class="fa-solid fa-tag"></i>&nbsp;
             <?php foreach ($tags as $tag): ?>
                 <a href="<?= base_url('blogs/tag/' . $tag->slug) ?>">#<?= $tag->name ?></a>&nbsp;
             <?php endforeach; ?>
