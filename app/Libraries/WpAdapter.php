@@ -202,7 +202,7 @@ class WpAdapter
      */
     public function getCategories()
     {
-        return wp()->call('categories');
+        return $this->call('categories');
     }
 
     /**
@@ -215,7 +215,7 @@ class WpAdapter
      */
     public function getTags()
     {
-        return wp()->call('tags');
+        return $this->call('tags');
     }
 
     /**
