@@ -25,7 +25,7 @@
                     <p data-aos="fade-left" data-aos-duration="900"><?= $overview['description'] ?></p>
                     <div class="space32"></div>
                     <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
-                        <a href="#" class="header-btn4">View Our Property</a>
+                        <a href="/wiratama-estate-3" class="header-btn4">Lihat Properti</a>
                     </div>
                 </div>
             </div>
