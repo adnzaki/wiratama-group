@@ -19,6 +19,7 @@ $routes->group('wiratama-residence-2', function (RouteCollection $routes) {
 $routes->group('blogs', function (RouteCollection $routes) {
     $routes->get('/', 'Blogs::index');
     $routes->get('(:alpha)/(:any)', 'Blogs::index/$1/$2');
+    $routes->get('read-post/(:any)', 'Blogs::readPost/$1');
 });
 
 $routes->get('dev-page', 'Development::developmentPage');

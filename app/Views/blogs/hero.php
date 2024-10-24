@@ -12,7 +12,7 @@
                 <div class="inner-heading header-heading">
                     <h2>Blogs</h2>
                     <div class="space24"></div>
-                    <p><a href="<?= base_url() ?>">Home <i class="fa-solid fa-angle-right"></i></a> <a href="#">Blogs</a></p>
+                    <p><a href="<?= base_url() ?>">Home <i class="fa-solid fa-angle-right"></i></a> <a href="<?= base_url('blogs') ?>">Blogs</a></p>
                 </div>
             </div>
             <div class="col-lg-2"></div>
@@ -20,7 +20,8 @@
                 <div class="auhtor-box">
                     <div class="others-box">
                         <div class="img3">
-                            <img src="<?//= $img ?>all-images/others/others-img1.png" alt="">
+                            <img src="<? //= $img 
+                                        ?>all-images/others/others-img1.png" alt="">
                         </div>
                         <div class="text">
                             <h3>Luxury Suite Villa</h3>

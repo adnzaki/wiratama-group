@@ -25,7 +25,7 @@
 
 .blog3-section-area .blog-boxarea .img1,
 .blog-inner-section-area .blog-boxarea .img1 {
-    height: 420px;
+    height: 400px;
 }
 
 .testimonial3-section-area .testimonial-vertical .img1 img {
@@ -75,4 +75,85 @@
     display: inline-block;
     transition: all 0.4s;
     text-align: justify;
+}
+
+.blog-inner-section-area .blog-boxarea .content-area p {
+	color: var(--ztc-text-text-8);
+	font-family: var(--ztc-family-font2);
+	font-size: var(--ztc-font-size-font-s16);
+	font-style: normal;
+	line-height: 28px;
+	transition: all 0.4s;
+}
+
+.blog-details-leftarea .blog-author-area p {
+    margin-bottom: 20px;
+}
+
+.blog-details-leftarea .blog-details-left .search-area form {
+    padding: 20px 20px;
+}
+
+.blog-inner-section-area .blog-details-left .search-area form {
+    padding: 22px 20px !important;
+}
+
+.blog-details-leftarea .blog-details-left .tags-area ul li a {
+    padding: 12px 11px;
+}
+
+/* .blog-inner-section-area .blog-details-left .search-area {
+    border-radius: 16px;
+    padding: 0 32px;
+}
+
+.blog-inner-section-area .blog-details-left .search-area form {
+    background: #F1F4F3;
+    position: relative;
+    z-index: 1;
+    border-radius: 100px;
+    padding: 22px 20px;
+    height: 70px;
+}
+
+.blog-inner-section-area .blog-details-left .search-area form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: var(--ztc-text-text-8);
+    font-family: var(--ztc-family-font2);
+    font-size: var(--ztc-font-size-font-s16);
+    font-style: normal;
+    font-weight: var(--ztc-weight-semibold);
+    line-height: 16px;
+}
+
+.blog-inner-section-area .blog-details-left .search-area form button {
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+} */
+
+/* Override Wordpress style */
+.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) a,
+.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img {
+    border-radius: 15px;
+}
+
+a:where(:not(.wp-element-button)) {
+    /* color: var(--wp--preset--color--foreground); */
+    text-decoration: none !important;
+}
+
+.wp-block-themeisle-blocks-slider .wp-block-themeisle-blocks-slider-item-wrapper figure img {
+    border-radius: 15px;
+}
+
+.wp-block-image img {
+    box-shadow: 10px 9px 37px -9px rgba(152, 152, 152, 0.75);
+        -webkit-box-shadow: 10px 9px 37px -9px rgba(152, 152, 152, 0.75);
+        -moz-box-shadow: 10px 9px 37px -9px rgba(152, 152, 152, 0.75);
+    border-radius: 15px;
 }

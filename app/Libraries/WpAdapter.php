@@ -152,7 +152,8 @@ class WpAdapter
         ];
 
         $data = [
-            'pageTitle'     => $postDetail['title'],
+            'id'            => $postDetail->id,
+            'pageTitle'     => $postDetail->title,
             'contents'      => $contentData,
             'wpURL'         => $this->baseUrl,
         ];
@@ -160,6 +161,70 @@ class WpAdapter
         return $data;
     }
 
+    /**
+     * Retrieve media details by post ID.
+     *
+     * This function calls the WordPress REST API to fetch media associated with
+     * a specific post ID. It formats the media details to include various image
+     * sizes such as thumbnail, medium, large, medium_large, and full.
+     *
+     * @param int $id The ID of the post whose media is being retrieved.
+     * @return array An array of objects containing media details, including
+     *               IDs and URLs for different image sizes.
+     */
+    public function getMediaByPostId($id)
+    {
+        $media = $this->call('media?id=' . $id);
+        $formatted = [];
+        foreach($media as $m) {
+            $sizes = $m->media_details->sizes;
+            $formatted[] = (object)[
+                'id'            => $m->id,
+                'url'           => $m->guid->rendered,
+                'thumbnail'     => $sizes->thumbnail->source_url,
+                'medium'        => $sizes->medium->source_url ?? '',
+                'large'         => $sizes->large->source_url ?? '',
+                'medium_large'  => $sizes->medium_large->source_url ?? '',
+                'full'          => $sizes->full->source_url
+            ];
+        }
+
+        return $formatted;
+    }
+
+    /**
+     * Retrieves a list of all categories.
+     *
+     * Calls the WordPress REST API to fetch all categories.
+     *
+     * @return array A list of objects containing category details, including
+     *               IDs, names, and URLs.
+     */
+    public function getCategories()
+    {
+        return wp()->call('categories');
+    }
+
+    /**
+     * Retrieves a list of all tags.
+     *
+     * Calls the WordPress REST API to fetch all tags.
+     *
+     * @return array A list of objects containing tag details, including
+     *               IDs, names, and URLs.
+     */
+    public function getTags()
+    {
+        return wp()->call('tags');
+    }
+
+    /**
+     * Get a single post by id
+     *
+     * @param object $post
+     *
+     * @return object
+     */
     private function getPostDetail($post)
     {
         $postImage = '';
@@ -204,6 +269,7 @@ class WpAdapter
         $postURL = base_url($this->singlePostBaseUrl . '/' . $post->slug);
 
         return (object)[
+            'id'                => $post->id,
             'title'             => $post->title->rendered,
             'excerpt'           => substr(strip_tags($post->content->rendered), 0, $this->excerptLength),
             'content'           => $post->content->rendered,

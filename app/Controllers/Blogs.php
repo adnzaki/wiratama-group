@@ -17,10 +17,30 @@ class Blogs extends BaseController
             'pageLinks'     => $pager->makeLinks($page, $perPage, $totalPost, 'wiratama_pager'),
             'getPage'       => $page,
             'count'         => $pager->getPageCount(),
-            'categories'    => wp()->call('categories'),
-            'tags'          => wp()->call('tags'),
+            'allCategories' => wp()->getCategories(),
+            'allTags'       => wp()->getTags(),
         ];
 
         return view('blogs/main', array_merge($this->commonData(), $data));
+    }
+
+    public function readPost($slug)
+    {
+        $getPost = wp()->readPost($slug);
+        $content = $getPost['contents'];
+        $post = $content['post'];
+
+        $data = [
+            'pageTitle'     => $getPost['pageTitle'] . ' - Wiratama Group',
+            'post'          => $post,
+            'recentPosts'   => $content['recentPosts'],
+            'recentStatus'  => $content['recentStatus'],
+            'categories'    => $post->categoriesArray,
+            'tags'          => $post->tags,
+            'allCategories' => wp()->getCategories(),
+            'allTags'       => wp()->getTags(),
+        ];
+
+        return view('read-post/main', array_merge($this->commonData(), $data));
     }
 }

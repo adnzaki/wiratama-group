@@ -4,6 +4,10 @@
     const propertyRequestText = "<?= $contactMessage ?? '' ?>";
 </script>
 
+<?php if (strpos(current_url(), 'read-post') !== false): ?>
+    <?= view('read-post/script') ?>
+<?php endif ?>
+
 <!--===== JS SCRIPT LINK =======-->
 <script src="<?= $js ?>plugins/bootstrap.min.js"></script>
 <script src="<?= $js ?>plugins/fontawesome.js"></script>

@@ -31,6 +31,10 @@
     <link rel="stylesheet" href="<?= $css ?>plugins/slick-slider.css">
     <link rel="stylesheet" href="<?= $css ?>plugins/nice-select.css">
     <link rel="stylesheet" href="<?= $css ?>main.css">
+    
+    <?php if (strpos(current_url(), 'read-post') !== false): ?>
+        <?= view('read-post/style') ?>
+    <?php endif ?>
     <link rel="stylesheet" href="<?= $css ?>custom.css">
     <link rel="stylesheet" href="<?= $css ?>responsive.css">
 
