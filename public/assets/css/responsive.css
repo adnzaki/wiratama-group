@@ -18,6 +18,23 @@
     .hide-social-media-header {
         display: none;
     }
+
+    .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area {
+        display: block;
+        text-align: center;
+    }
+
+    .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu2 ul li a {
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-logo,
+    .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu,
+    .footer3-section-area .footer3-bottom-section .footer-bottom-area .footer-menu-area .footer-menu2 {
+        padding-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {

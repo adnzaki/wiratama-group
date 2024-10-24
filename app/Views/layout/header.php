@@ -31,6 +31,7 @@
                                 <a href="#"><img src="<?= $img ?>icons/search-icon1.svg" alt=""> <span></span></a>
                             </div> -->
                             <ul>
+                                <li><a target="_blank" href="<?= $contactLink ?>"><i class="fa-brands fa-whatsapp"></i></a></li>
                                 <li><a target="_blank" href="<?= $facebookPage ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a target="_blank" href="<?= $instagramProfile ?>"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a target="_blank" href="<?= $youtubeChannel ?>" class="m-0"><i class="fa-brands fa-youtube"></i></a></li>

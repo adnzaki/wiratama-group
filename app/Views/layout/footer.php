@@ -51,6 +51,7 @@
                             </div>
                             <div class="footer-social">
                                 <ul>
+                                    <li><a href="<?= $contactLink ?>" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
                                     <li><a href="<?= $facebookPage ?>" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href="<?= $instagramProfile ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                                     <li><a href="<?= $youtubeChannel ?>" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
