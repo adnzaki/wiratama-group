@@ -61,10 +61,10 @@
                     </div>
                     <div class="testimonial-arrows">
                         <div class="testimonial-prev-arrow">
-                            <button><i class="fa-solid fa-angle-up"></i></button>
+                            <button><i class="fa-solid fa-angle-up" aria-label="Previous"></i></button>
                         </div>
                         <div class="testimonial-next-arrow">
-                            <button><i class="fa-solid fa-angle-down"></i></button>
+                            <button><i class="fa-solid fa-angle-down" aria-label="Next"></i></button>
                         </div>
                     </div>
                 </div>

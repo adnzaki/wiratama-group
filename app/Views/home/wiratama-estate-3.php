@@ -45,10 +45,10 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="about-video-area">
                             <div class="img1 image-anime reveal">
-                                <a href="<?= $youtubeLink ?>" class="popup-youtube"><img src="<?= $img ?>all-images/best-properties/wr-video-thumbnail.webp" alt=""></a>
+                                <a href="<?= $youtubeLink ?>" aria-label="Thumbnail video youtube" class="popup-youtube"><img src="<?= $img ?>all-images/best-properties/wr-video-thumbnail.webp" alt=""></a>
                             </div>
                             <div class="play-btn">
-                                <a href="<?= $youtubeLink ?>" class="popup-youtube"><i class="fa-solid fa-play"></i></a>
+                                <a href="<?= $youtubeLink ?>" aria-label="Play Video Button" class="popup-youtube"><i class="fa-solid fa-play"></i></a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                             </ul>
                         </div>
                         <div class="arrow">
-                            <a href="/wiratama-estate-3"><i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="/wiratama-estate-3" aria-label="Pelajari lebih lanjut tentang Wiratama Estate 3"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </div>
                     <div class="elements3">

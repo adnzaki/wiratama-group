@@ -8,7 +8,7 @@
                     <div class="footer-bottom-area">
                         <div class="footer-menu-area">
                             <div class="footer-logo">
-                                <a href="#"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
+                                <a href="#" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
                             </div>
                             <div class="footer-menu">
                                 <ul>
@@ -51,11 +51,12 @@
                             </div>
                             <div class="footer-social">
                                 <ul>
-                                    <!-- <li><a href="<?//= $contactLink ?>" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li> -->
-                                    <li><a href="<?= $facebookPage ?>" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="<?= $instagramProfile ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="<?= $youtubeChannel ?>" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
-                                    <li><a href="<?= $tiktokLink ?>" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                                    <!-- <li><a href="<? //= $contactLink 
+                                                        ?>" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li> -->
+                                    <li><a aria-label="Link Facebook" href="<?= $facebookPage ?>" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a aria-label="Link Instagram" href="<?= $instagramProfile ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a aria-label="Link Youtube Channel" href="<?= $youtubeChannel ?>" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a aria-label="Link TikTok" href="<?= $tiktokLink ?>" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
                                 </ul>
                             </div>
                         </div>

@@ -13,5 +13,5 @@
 <!--===== PROGRESS ENDS=======-->
 
 <div class="whatsapp-wiratama">
-    <a target="_blank" href="<?= $contactLink ?>"><i class="fa-brands fa-whatsapp"></i></a>
+    <a target="_blank" href="<?= $contactLink ?>" aria-label="Lanjut kontak Whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
 </div>
