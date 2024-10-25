@@ -3,7 +3,7 @@
     <?php foreach($heros as $hero): ?>
     <div class="main-hero-area">
         <div class="img1">
-            <img src="<?= $img ?>all-images/hero/<?= $hero['image'] ?>" id="hero-slider" alt="Hero slider images">
+            <img width="900" height="844" src="<?= $img ?>all-images/hero/<?= $hero['image'] ?>"  alt="Hero slider images">
         </div>
         <div class="bg-elements">
             <img src="<?= $img ?>elements/elements7.png" alt="" class="elements2">
