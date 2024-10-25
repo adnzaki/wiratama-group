@@ -4,11 +4,11 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="property-images-area">
-                    <div class="img1 reveal image-anime">
-                        <img width="437" height="550" src="<?= $img ?>all-images/property/<?= $overview['image1'] ?>" alt="">
-                    </div>
+                    <!-- <div class="img1 reveal image-anime">
+                        <img width="437" height="550" style="visibility: hidden;" src="<?//= $img ?>all-images/property/<?//= $overview['image1'] ?>" alt="">
+                    </div> -->
                     <div class="img2 reveal image-anime">
-                        <img width="437" height="550" src="<?= $img ?>all-images/property/<?= $overview['image2'] ?>" alt="">
+                        <img width="437" height="550" src="<?= $img ?>all-images/property/<?= $overview['image1'] ?>" alt="">
                     </div>
                     <div class="elements reveal image-anime">
                         <img src="<?= $img ?>elements/elements9.png" alt="">
