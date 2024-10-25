@@ -65,9 +65,9 @@
                             <a href="apartment-single.html">Wiratama Estate 3 - Bima A</a>
                             <div class="space20"></div>
                             <ul>
-                                <li><a href="#"><img src="<?= $img ?>icons/bed-icon1.svg" alt=""> x2</a> <span> | </span></li>
-                                <li><a href="#"><img src="<?= $img ?>icons/bat-icon1.svg" alt=""> x1</a> <span> | </span></li>
-                                <li><a href="#"><img src="<?= $img ?>icons/squre-icon1.svg" alt=""> 30 / 60 m2</a></li>
+                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bed-icon1.svg" alt=""> x2</a> <span> | </span></li>
+                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bat-icon1.svg" alt=""> x1</a> <span> | </span></li>
+                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/squre-icon1.svg" alt=""> 30 / 60 m2</a></li>
                             </ul>
                         </div>
                         <div class="arrow">
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <div class="elements3">
-                        <img src="<?= $img ?>elements/elements3.png" alt="">
+                        <img width="666" height="665" src="<?= $img ?>elements/elements3.png" alt="">
                     </div>
                 </div>
             </div>

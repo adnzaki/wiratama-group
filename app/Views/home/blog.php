@@ -20,8 +20,8 @@
                         </div>
                         <div class="content-area">
                             <ul>
-                                <li><a href="#"><img src="<?= $img ?>icons/user.svg" alt="Icon User"> <?= $post->author ?></a> <span> | </span></li>
-                                <li><a href="#"><img src="<?= $img ?>icons/calender.svg" alt="Icon Tanggal"> <?= os_date()->create($post->date, 'd-M-y') ?></a></li>
+                                <li><a href="#"><img width="14" height="18" src="<?= $img ?>icons/user.svg" alt="Icon User"> <?= $post->author ?></a> <span> | </span></li>
+                                <li><a href="#"><img width="17" height="19" src="<?= $img ?>icons/calender.svg" alt="Icon Tanggal"> <?= os_date()->create($post->date, 'd-M-y') ?></a></li>
                             </ul>
                             <div class="space20"></div>
                             <a href="<?= $post->url ?>"><?= $post->title ?></a>

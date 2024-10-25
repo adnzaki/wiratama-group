@@ -23,9 +23,9 @@
                         <a href="apartment-single.html">Tipe 36 + 7,5</a>
                         <div class="space16"></div>
                         <ul>
-                            <li><a href="#"><img src="<?= $img ?>icons/bed-icon1.svg" alt="">x2</a> <span> | </span></li>
-                            <li><a href="#"><img src="<?= $img ?>icons/bat-icon1.svg" alt="">x1</a> <span> | </span></li>
-                            <li><a href="#"><img src="<?= $img ?>icons/squre-icon1.svg" alt="">43,5 / 72 m2</a></li>
+                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bed-icon1.svg" alt="">x2</a> <span> | </span></li>
+                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bat-icon1.svg" alt="">x1</a> <span> | </span></li>
+                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/squre-icon1.svg" alt="">43,5 / 72 m2</a></li>
                         </ul>
                     </div>
                     <div class="arrow">
