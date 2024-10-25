@@ -40,9 +40,9 @@ class Home extends BaseController
             'wr-bima-2.webp',
             'wr-bima-3.webp',
             'wr-bima-4.webp',
-            'wr-bima-5.webp',
-            'wr-bima-6.webp',
-            'wr-bima-7.webp'
+            // 'wr-bima-5.webp',
+            // 'wr-bima-6.webp',
+            // 'wr-bima-7.webp'
         ];
 
         return $images;
