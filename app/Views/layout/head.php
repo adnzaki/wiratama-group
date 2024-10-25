@@ -40,6 +40,10 @@
 
     <!--=====  JS SCRIPT LINK =======-->
     <script src="<?= $js ?>plugins/jquery-3-6-0.min.js"></script>
+    <?php if (ENVIRONMENT === 'development'): ?>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <?php else: ?>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+    <?php endif ?>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
