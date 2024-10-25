@@ -5,10 +5,10 @@
             <div class="col-lg-6">
                 <div class="property-images-area">
                     <div class="img1 reveal image-anime">
-                        <img src="<?= $img ?>all-images/property/<?= $overview['image1'] ?>" alt="">
+                        <img width="437" height="550" src="<?= $img ?>all-images/property/<?= $overview['image1'] ?>" alt="">
                     </div>
                     <div class="img2 reveal image-anime">
-                        <img src="<?= $img ?>all-images/property/<?= $overview['image2'] ?>" alt="">
+                        <img width="437" height="550" src="<?= $img ?>all-images/property/<?= $overview['image2'] ?>" alt="">
                     </div>
                     <div class="elements reveal image-anime">
                         <img src="<?= $img ?>elements/elements9.png" alt="">
@@ -18,13 +18,13 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-5">
                 <div class="property-content heading3">
-                    <h5 data-aos="fade-left" data-aos-duration="800">Property Overview</h5>
+                    <h5>Property Overview</h5>
                     <div class="space20"></div>
-                    <h2 class="text-anime-style-3"><?= $overview['title'] ?></h2>
+                    <h2><?= $overview['title'] ?></h2>
                     <div class="space16"></div>
-                    <p data-aos="fade-left" data-aos-duration="900"><?= $overview['description'] ?></p>
+                    <p><?= $overview['description'] ?></p>
                     <div class="space32"></div>
-                    <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
+                    <div class="btn-area1">
                         <a href="/wiratama-estate-3" class="header-btn4">Lihat Properti</a>
                     </div>
                 </div>
