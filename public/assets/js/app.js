@@ -41,6 +41,14 @@ createApp({
       window.open(whatsappLink.value, '_blank');
     }
 
+    const mainHeroWidth = computed(() => {
+      return window.innerWidth > 768 ? "1333" : "600";
+    })
+
+    const mainHeroHeight = computed(() => {
+      return window.innerWidth > 768 ? "1250" : "563";
+    })
+
     onMounted(() => {
       contactMessage.value = propertyRequestText
       $(".details-slider").owlCarousel({
@@ -117,6 +125,8 @@ createApp({
       whatsappLink,
       disableButton,
       contactMessage,
+      mainHeroWidth,
+      mainHeroHeight,
       runTask,
       getStarted,
       sendWhatsapp,

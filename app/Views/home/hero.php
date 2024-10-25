@@ -1,9 +1,9 @@
 <!--===== HERO AREA STARTS =======-->
-<div class="header-carousel-area3 owl-carousel" id="app">
+<div class="header-carousel-area3 owl-carousel">
     <?php foreach($heros as $hero): ?>
     <div class="main-hero-area">
         <div class="img1">
-            <img width="1333" height="1250" src="<?= $img ?>all-images/hero/<?= $hero['image'] ?>" alt="">
+            <img src="<?= $img ?>all-images/hero/<?= $hero['image'] ?>" id="hero-slider" alt="Hero slider images">
         </div>
         <div class="bg-elements">
             <img src="<?= $img ?>elements/elements7.png" alt="" class="elements2">
@@ -25,7 +25,7 @@
                             <p><?= $hero['description'] ?></p>
                             <div class="space32"></div>
                             <div class="btn-area1">
-                                <a href="<?= $hero['buttonUrl'] ?>" @click="getStarted" class="header-btn3">Mulai Jelajahi</a>
+                                <a href="<?= $hero['buttonUrl'] ?>" onclick="getStarted()" class="header-btn3">Mulai Jelajahi</a>
                                 <!-- <a href="https://www.youtube.com/watch?v=Y8XpQpW5OVY" class="popup-youtube">
                                     <span class="play-btn"><i class="fa-solid fa-play"></i></span>
                                     <span class="text">Video</span>

@@ -25,4 +25,5 @@
 <script src="<?= $js ?>plugins/ScrollTrigger.min.js"></script>
 <script src="<?= $js ?>plugins/Splitetext.js"></script>
 <script src="<?= $js ?>main.js"></script>
+<script src="<?= $js ?>site.js"></script>
 <script defer src="<?= $js ?>app.js"></script>
