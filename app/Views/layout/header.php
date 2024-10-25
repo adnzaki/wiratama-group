@@ -6,7 +6,7 @@
                 <div class="col-lg-12">
                     <div class="header-elements">
                         <div class="site-logo">
-                            <a href="<?= base_url() ?>" aria-label="Logo Wiratama Group"><img width="180" height="93" src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
+                            <a href="<?= base_url() ?>" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
                         </div>
                         <div class="main-menu">
                             <ul>
