@@ -14,8 +14,8 @@ function resizeImage() {
   }
 }
 
-window.addEventListener("load", resizeImage);
-window.addEventListener("resize", resizeImage);
+// window.addEventListener("load", resizeImage);
+// window.addEventListener("resize", resizeImage);
 
 const getStarted = () => {
   document
