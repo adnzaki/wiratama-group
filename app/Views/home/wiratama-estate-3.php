@@ -62,7 +62,7 @@
                     </div>
                     <div class="content-area">
                         <div class="text">
-                            <a href="apartment-single.html">Wiratama Estate 3 - Bima A</a>
+                            <a href="/wiratama-estate-3">Wiratama Estate 3 - Bima A</a>
                             <div class="space20"></div>
                             <ul>
                                 <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bed-icon1.svg" alt=""> x2</a> <span> | </span></li>
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <div class="elements3">
-                        <img width="666" height="665" src="<?= $img ?>elements/elements3.png" alt="">
+                        <img src="<?= $img ?>elements/elements3.png" alt="">
                     </div>
                 </div>
             </div>
