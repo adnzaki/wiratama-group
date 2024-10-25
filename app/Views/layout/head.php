@@ -21,17 +21,17 @@
     <link rel="shortcut icon" href="<?= $img ?>logo/wr-favicon.png" type="image/x-icon">
 
     <!--===== CSS LINK =======-->
-    <link rel="stylesheet" href="<?= $css ?>plugins/bootstrap.min.css">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="<?= $css ?>plugins/bootstrap.min.css">
     <link rel="stylesheet" href="<?= $css ?>plugins/aos.css">
-    <link rel="stylesheet" href="<?= $css ?>plugins/fontawesome.css">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="<?= $css ?>plugins/fontawesome.css">
     <link rel="stylesheet" href="<?= $css ?>plugins/magnific-popup.css">
-    <link rel="stylesheet" href="<?= $css ?>plugins/mobile.css">
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="<?= $css ?>plugins/mobile.css">
     <link rel="stylesheet" href="<?= $css ?>plugins/owlcarousel.min.css">
     <link rel="stylesheet" href="<?= $css ?>plugins/sidebar.css">
     <link rel="stylesheet" href="<?= $css ?>plugins/slick-slider.css">
     <link rel="stylesheet" href="<?= $css ?>plugins/nice-select.css">
-    <link rel="stylesheet" href="<?= $css ?>main.css">
-    
+    <link rel="preload" as="style" onload="this.rel='stylesheet'" href="<?= $css ?>main.css">
+
     <?php if (strpos(current_url(), 'read-post') !== false): ?>
         <?= view('read-post/style') ?>
     <?php endif ?>
@@ -41,9 +41,9 @@
     <!--=====  JS SCRIPT LINK =======-->
     <script src="<?= $js ?>plugins/jquery-3-6-0.min.js"></script>
     <?php if (ENVIRONMENT === 'development'): ?>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <script defer src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <?php else: ?>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+        <script defer src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
     <?php endif ?>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
