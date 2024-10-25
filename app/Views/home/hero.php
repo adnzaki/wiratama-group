@@ -6,7 +6,7 @@
                 <img width="900" height="844" src="<?= $img ?>all-images/hero/<?= $hero['image'] ?>" alt="Hero slider images">
             </div>
             <div class="bg-elements">
-                <img src="<?= $img ?>elements/elements7.png" alt="" class="elements2">
+                <img width="666" height="665" src="<?= $img ?>elements/elements7.png" alt="" class="elements2">
             </div>
             <div class="container" style="margin-top: -70px;">
                 <div class="row">
