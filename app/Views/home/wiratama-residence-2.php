@@ -17,7 +17,7 @@
                 <div class="space40"></div>
                 <div class="apartment-boxarea">
                     <div class="img1">
-                        <img src="<?= $img ?>all-images/wiratama-residence-2/wr-residence2-thumb.png" alt="">
+                        <img src="<?= $img ?>all-images/wiratama-residence-2/wr-residence2-thumb.webp" alt="">
                     </div>
                     <div class="content-area">
                         <a href="apartment-single.html">Tipe 36 + 7,5</a>

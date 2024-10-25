@@ -45,7 +45,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="about-video-area">
                             <div class="img1 image-anime reveal">
-                                <a href="<?= $youtubeLink ?>" class="popup-youtube"><img src="<?= $img ?>all-images/best-properties/wr-video-thumbnail.png" alt=""></a>
+                                <a href="<?= $youtubeLink ?>" class="popup-youtube"><img src="<?= $img ?>all-images/best-properties/wr-video-thumbnail.webp" alt=""></a>
                             </div>
                             <div class="play-btn">
                                 <a href="<?= $youtubeLink ?>" class="popup-youtube"><i class="fa-solid fa-play"></i></a>
@@ -58,7 +58,7 @@
                 <div class="space30 d-lg-none d-block"></div>
                 <div class="about-widget-images">
                     <div class="img1 reveal image-anime">
-                        <img src="<?= $img ?>all-images/best-properties/wr-bima-ab.png" alt="">
+                        <img src="<?= $img ?>all-images/best-properties/wr-bima-ab.webp" alt="">
                     </div>
                     <div class="content-area">
                         <div class="text">

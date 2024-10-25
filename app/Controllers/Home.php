@@ -24,10 +24,10 @@ class Home extends BaseController
     private function wiratamaResidence2Slider()
     {
         $images = [
-            'wr-img-1.png',
-            'wr-img-2.png',
-            'wr-img-3.png',
-            'wr-img-4.png',
+            'wr-residence-1.webp',
+            'wr-residence-2.webp',
+            'wr-residence-3.webp',
+            'wr-residence-4.webp',
         ];
 
         return $images;
@@ -36,13 +36,13 @@ class Home extends BaseController
     private function wiratamaEstate3Slider()
     {
         $images = [
-            'wr-bima-1.png',
-            'wr-bima-2.png',
-            'wr-bima-3.png',
-            'wr-bima-4.png',
-            'wr-bima-5.png',
-            'wr-bima-6.png',
-            'wr-bima-7.png'
+            'wr-bima-1.webp',
+            'wr-bima-2.webp',
+            'wr-bima-3.webp',
+            'wr-bima-4.webp',
+            'wr-bima-5.webp',
+            'wr-bima-6.webp',
+            'wr-bima-7.webp'
         ];
 
         return $images;
@@ -52,7 +52,7 @@ class Home extends BaseController
     {
         $facilities = [
             [
-                'img' => 'wr-facility-1.png',
+                'img' => 'wr-facility-1.webp',
                 'space' => false,
                 'number' => '01',
                 'title' => 'Pasar Setu',
@@ -60,7 +60,7 @@ class Home extends BaseController
                 'speed' => 800
             ],
             [
-                'img' => 'wr-facility-2.png',
+                'img' => 'wr-facility-2.webp',
                 'space' => true,
                 'number' => '02',
                 'title' => 'Jalan Tol Cibitung-Cimanggis',
@@ -68,7 +68,7 @@ class Home extends BaseController
                 'speed' => 1000
             ],
             [
-                'img' => 'wr-facility-3.png',
+                'img' => 'wr-facility-3.webp',
                 'space' => false,
                 'number' => '03',
                 'title' => 'SMAN 1 Setu',
@@ -76,7 +76,7 @@ class Home extends BaseController
                 'speed' => 1100
             ],
             [
-                'img' => 'wr-facility-4.png',
+                'img' => 'wr-facility-4.webp',
                 'space' => true,
                 'number' => '04',
                 'title' => 'Minimarket',
@@ -96,8 +96,8 @@ class Home extends BaseController
             'title'         => 'Rasakan Keanggunan dan Kenyamanan di Hunian Impian',
             'description'   => 'Nikmati konsep rumah Modern, Futuristik, dan Mewah di Wiratama Estate 3, yang dirancang untuk gaya hidup premium dengan harga terjangkau.<br/><br/> 
                                 Sementara itu, Wiratama Residence 2 menawarkan desain Skandinavia yang elegan dan sederhana, menghadirkan kehangatan dan kenyamanan dalam setiap sudut hunian.',
-            'image1'        => 'property-1.png',
-            'image2'        => 'property-3.png',
+            'image1'        => 'property-1.webp',
+            'image2'        => 'property-3.webp',
         ];
 
         return $data;
