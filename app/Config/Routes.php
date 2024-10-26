@@ -22,6 +22,8 @@ $routes->group('blogs', function (RouteCollection $routes) {
     $routes->get('read-post/(:any)', 'Blogs::readPost/$1');
 });
 
+$routes->get('about-us', 'AboutUs::index');
+
 $routes->get('dev-page', 'Development::developmentPage');
 $routes->get('dev-page/test-response', 'Development::testResponse');
 $routes->post('dev-page/generate-password', 'Development::generatePassword');

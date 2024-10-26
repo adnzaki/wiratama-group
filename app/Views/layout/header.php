@@ -20,7 +20,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li><a href="#" class="wr-menu-item">About Us</a></li>
+                                <li><a href="/about-us" class="wr-menu-item">About Us</a></li>
                                 <li><a href="#" class="wr-menu-item">Contact</a></li>
                                 <li><a href="/blogs" class="wr-menu-item">Blogs</a></li>
 

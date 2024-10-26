@@ -32,7 +32,7 @@
                     <li><a href="/wiratama-residence-2">Wiratama Residence 2</a></li>
                 </ul>
             </li>
-            <li><a href="#">About</a></li>
+            <li><a href="/about-us">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="/blogs">Blogs</a></li>
         </ul>
