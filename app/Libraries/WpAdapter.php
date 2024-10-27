@@ -47,6 +47,13 @@ class WpAdapter
      */
     private $excerptLength = 150;
 
+    /**
+     * Response as array
+     * 
+     * @var bool|null
+     */
+    private $responseAsArray = null;
+
     public function __construct(string $baseUrl)
     {
         $this->baseUrl = $baseUrl;
@@ -69,6 +76,13 @@ class WpAdapter
     public function setExcerptLength(int $length)
     {
         $this->excerptLength = $length;
+
+        return $this;
+    }
+
+    public function setResponseAsArray(bool $responseAsArray)
+    {
+        $this->responseAsArray = $responseAsArray;
 
         return $this;
     }
@@ -295,7 +309,7 @@ class WpAdapter
      * 
      * @return object
      */
-    public function call(string $path, $associative = null)
+    public function call(string $path)
     {
 
         // prepare curl
@@ -316,6 +330,6 @@ class WpAdapter
 
         curl_close($ch);
 
-        return json_decode($output, $associative);
+        return json_decode($output, $this->responseAsArray);
     }
 }
