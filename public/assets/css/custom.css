@@ -132,6 +132,60 @@
 	color: #fff;
 }
 
+.heading6.company-vision {
+	padding: 0 30px;
+}
+
+.heading6.company-vision h2 {
+    font-style: italic;
+    font-size: var(--ztc-font-size-font-s24);
+    font-weight: normal;
+}
+
+.heading6.company-vision h2 span {
+    font-size: 1.5em;
+}
+
+.custom-modal {
+    border: none;
+    border-radius: 1rem;
+    font-family: var(--ztc-family-font2);
+    
+}
+
+.custom-modal-wrapper {
+    background: #302b2b94;
+}
+
+.custom-modal.gallery-modal {
+    background: transparent;
+}
+
+.custom-modal.gallery-modal .modal-body img {
+    border-radius: 15px;
+}
+
+.custom-modal.gallery-modal .modal-header {
+    color: #fff;
+}
+
+.custom-modal .modal-header {
+    border-bottom: none;
+}
+
+.custom-modal .modal-footer {
+    border-top: none;
+}
+
+.custom-modal .modal-footer button {
+    border-radius: 15px;
+}
+
+.custom-modal .modal-header button i {
+	font-size: 25px;
+	color: #fff;
+}
+
 /* .blog-inner-section-area .blog-details-left .search-area {
     border-radius: 16px;
     padding: 0 32px;

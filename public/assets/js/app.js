@@ -19,6 +19,8 @@ createApp({
     const contactMessage = ref('')
     const contactName = ref('')
     const showWarning = ref(false)
+    const selectedImageGallery = ref('')
+    const imageGalleryText = ref('')
 
     const whatsappLink = computed(() => {
       return `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Halo,%20saya%20${contactName.value}.%20${contactMessage.value}`;
@@ -26,6 +28,11 @@ createApp({
 
     const getStarted = () => {
       document.getElementById("get-started").scrollIntoView({ behavior: "smooth" });
+    }
+
+    const openImageGallery = ({ image, text }) => {
+      selectedImageGallery.value = image
+      imageGalleryText.value = text
     }
 
     const sendWhatsapp = () => {
@@ -127,9 +134,12 @@ createApp({
       contactMessage,
       mainHeroWidth,
       mainHeroHeight,
+      imageGalleryText,
+      selectedImageGallery,
       runTask,
       getStarted,
       sendWhatsapp,
+      openImageGallery,
     };
   },
 }).mount("#app");

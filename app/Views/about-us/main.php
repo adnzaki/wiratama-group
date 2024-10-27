@@ -14,6 +14,12 @@
     <!-- Content goes here -->
     <?= view('about-us/hero') ?>
 
+    <?= view('about-us/profile') ?>
+
+    <?= view('about-us/visi-misi') ?>
+
+    <?= view('about-us/gallery') ?>
+
 
     <div class="space50" style="margin-bottom: 100px;"></div>
    
