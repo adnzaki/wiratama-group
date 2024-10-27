@@ -27,7 +27,7 @@
                     <!-- <p data-aos="fade-left" data-aos-duration="1100">Dedicated apartment specialists, we are committed to providing personalized service, guiding you through an every step of your apartment search with expertise.</p> -->
                     <div class="space32"></div>
                     <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
-                        <a href="apartment-v1.html" class="header-btn4">View Our Property</a>
+                        <!-- <a href="apartment-v1.html" class="header-btn4">View Our Property</a> -->
                     </div>
                 </div>
             </div>
