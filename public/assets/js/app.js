@@ -18,6 +18,7 @@ createApp({
     const disableButton = ref(false)
     const contactMessage = ref('')
     const contactName = ref('')
+    const contactEmail = ref('')
     const showWarning = ref(false)
     const selectedImageGallery = ref('')
     const imageGalleryText = ref('')
@@ -25,6 +26,10 @@ createApp({
     const whatsappLink = computed(() => {
       return `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Halo,%20saya%20${contactName.value}.%20${contactMessage.value}`;
     })
+
+    const whatsappLink2 = computed(() => {
+      return `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Halo,%20saya%20${contactName.value}%20(${contactEmail.value}).%20${contactMessage.value} `;
+    });
 
     const getStarted = () => {
       document.getElementById("get-started").scrollIntoView({ behavior: "smooth" });
@@ -47,6 +52,19 @@ createApp({
 
       window.open(whatsappLink.value, '_blank');
     }
+
+    const sendWhatsapp2 = () => {
+      if (contactName.value === "" || contactEmail.value === "" || contactMessage.value === "") {
+        showWarning.value = true;
+        setTimeout(() => {
+          showWarning.value = false;
+        }, 5000);
+
+        return;
+      }
+
+      window.open(whatsappLink2.value, "_blank");
+    };
 
     const mainHeroWidth = computed(() => {
       return window.innerWidth > 768 ? "1333" : "600";
@@ -129,6 +147,7 @@ createApp({
       password,
       showWarning,
       contactName,
+      contactEmail,
       whatsappLink,
       disableButton,
       contactMessage,
@@ -139,6 +158,7 @@ createApp({
       runTask,
       getStarted,
       sendWhatsapp,
+      sendWhatsapp2,
       openImageGallery,
     };
   },

@@ -23,7 +23,7 @@
                                 <ul>
                                     <li><a href="/about-us">About Us</a></li>
                                     <li class="space24"></li>
-                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                     <li class="space24"></li>
                                     <li><a href="/blogs">Blogs</a></li>
                                 </ul>

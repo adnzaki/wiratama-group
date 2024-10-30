@@ -186,6 +186,10 @@
 	color: #fff;
 }
 
+.contact-inner-area .contact-inner-boxarea .contact-box .content a {
+	line-height: 23px;
+}
+
 /* .blog-inner-section-area .blog-details-left .search-area {
     border-radius: 16px;
     padding: 0 32px;

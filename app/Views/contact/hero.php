@@ -10,9 +10,9 @@
         <div class="row">
             <div class="col-lg-5">
                 <div class="inner-heading header-heading">
-                    <h2>About Us</h2>
+                    <h2>Contact</h2>
                     <div class="space24"></div>
-                    <p><a href="<?= base_url() ?>">Home <i class="fa-solid fa-angle-right"></i></a> <a href="#">About Us</a></p>
+                    <p><a href="<?= base_url() ?>">Home <i class="fa-solid fa-angle-right"></i></a> <a href="#">Contact</a></p>
                 </div>
             </div>
             <div class="col-lg-2"></div>

@@ -23,6 +23,7 @@ $routes->group('blogs', function (RouteCollection $routes) {
 });
 
 $routes->get('about-us', 'AboutUs::index');
+$routes->get('contact', 'Contact::index');
 
 $routes->get('dev-page', 'Development::developmentPage');
 $routes->get('dev-page/test-response', 'Development::testResponse');

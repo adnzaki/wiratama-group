@@ -33,7 +33,7 @@
                 </ul>
             </li>
             <li><a href="/about-us">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/contact">Contact</a></li>
             <li><a href="/blogs">Blogs</a></li>
         </ul>
 
@@ -78,7 +78,8 @@
 
                         <div class="social-links-mobile-menu">
                             <ul>
-                                <!-- <li><a target="_blank" href="<?//= $contactLink ?>"><i class="fa-brands fa-whatsapp"></i></a></li> -->
+                                <!-- <li><a target="_blank" href="<? //= $contactLink 
+                                                                    ?>"><i class="fa-brands fa-whatsapp"></i></a></li> -->
                                 <li><a target="_blank" href="<?= $facebookPage ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a target="_blank" href="<?= $instagramProfile ?>"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a target="_blank" href="<?= $youtubeChannel ?>"><i class="fa-brands fa-youtube"></i></a></li>
