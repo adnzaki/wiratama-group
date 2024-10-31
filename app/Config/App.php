@@ -199,4 +199,15 @@ class App extends BaseConfig
      * @see http://www.w3.org/TR/CSP/
      */
     public bool $CSPEnabled = false;
+
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->baseURL = env('server_type') === 'localhost'
+            ? 'http://localhost:8080/'
+            : (strpos($_SERVER['HTTP_HOST'], 'www.') === 0
+                ? 'https://www.wiratama-group.com/'
+                : 'https://wiratama-group.com/');
+    }
 }
