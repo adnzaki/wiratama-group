@@ -25,7 +25,7 @@
                     <p data-aos="fade-left" data-aos-duration="1000">Kunjungi properti kami untuk merasakan langsung kualitas dan suasana lingkungan. Jadwalkan tur pribadi bersama tim kami dan temukan rumah impian Anda.</p>
                     <div class="space24"></div>
                     <div class="btn-area1" data-aos="fade-left" data-aos-duration="1200">
-                        <a href="<?= $sendWhatsapp ?>" target="_blank" class="header-btn3">Kontak Tim</a>
+                        <a href="<?= $sendWhatsapp ?>" target="_blank" class="header-btn3">Kontak Tim Kami</a>
                         <!-- <a href="https://www.youtube.com/watch?v=Y8XpQpW5OVY" class="popup-youtube">
                             <span class="play-btn"><i class="fa-solid fa-play"></i></span>
                             <span class="text">Video</span>
