@@ -50,7 +50,7 @@
                         <div class="col-lg-4">
                             <div class="contact-box">
                                 <div class="icons">
-                                    <img src="assets/img/icons/contact-icon1.svg" alt="">
+                                    <img src="assets/img/icons/contact-icon1.svg" alt="icon telpon">
                                 </div>
                                 <div class="content">
                                     <p>Kontak</p>
@@ -60,7 +60,7 @@
                             <div class="space20"></div>
                             <div class="contact-box">
                                 <div class="icons">
-                                    <img src="assets/img/icons/contact-icon2.svg" alt="">
+                                    <img src="assets/img/icons/contact-icon2.svg" alt="icon email">
                                 </div>
                                 <div class="content">
                                     <p>Email</p>
@@ -70,7 +70,7 @@
                             <div class="space20"></div>
                             <div class="contact-box">
                                 <div class="icons">
-                                    <img src="assets/img/icons/contact-icon4.svg" alt="">
+                                    <img src="assets/img/icons/contact-icon4.svg" alt="icon rumah">
                                 </div>
                                 <div class="content">
                                     <p>Alamat Kantor</p>
@@ -88,13 +88,13 @@
             <div class="col-lg-4">
                 <div class="contact-author-box">
                     <div class="img1">
-                        <img src="<?= $img ?>all-images/contact/logo-wiratama-awan.jpg" alt="">
+                        <img src="<?= $img ?>all-images/contact/logo-wiratama-awan.jpg" alt="icon wiratama background awan">
                     </div>
                     <div class="space24"></div>
                     <p>Butuh komunikasi lebih lanjut? Kunjungi kantor kami dan staff kami siap membantu anda secara langsung!</p>
                     <div class="space32"></div>
                     <div class="btn-area1">
-                        <a href="<?= $mapLocation ?>" target="_blank"><img src="assets/img/icons/maps.svg" alt=""> Lihat di Map</a>
+                        <a href="<?= $mapLocation ?>" target="_blank"><img src="assets/img/icons/maps.svg" alt="icon maps"> Lihat di Map</a>
                     </div>
                 </div>
             </div>

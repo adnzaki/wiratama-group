@@ -15,7 +15,7 @@
                 <div class="about-slider-area owl-carousel">
                     <?php foreach ($properties as $property) : ?>
                         <div class="img1 reveal image-anime">
-                            <img src="<?= $img ?>all-images/best-properties/<?= $property ?>" alt="">
+                            <img src="<?= $img ?>all-images/best-properties/<?= $property ?>" alt="galeri singkat wiratama estate 3">
                         </div>
                     <?php endforeach; ?>
 
@@ -45,7 +45,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="about-video-area">
                             <div class="img1 image-anime reveal">
-                                <a href="<?= $youtubeLink ?>" aria-label="Thumbnail video youtube" class="popup-youtube"><img src="<?= $img ?>all-images/best-properties/wr-video-thumbnail.webp" alt=""></a>
+                                <a href="<?= $youtubeLink ?>" aria-label="Thumbnail video youtube" class="popup-youtube"><img src="<?= $img ?>all-images/best-properties/wr-video-thumbnail.webp" alt="thumbnail video youtube"></a>
                             </div>
                             <div class="play-btn">
                                 <a href="<?= $youtubeLink ?>" aria-label="Play Video Button" class="popup-youtube"><i class="fa-solid fa-play"></i></a>
@@ -65,9 +65,9 @@
                             <a href="/wiratama-estate-3">Wiratama Estate 3 - Bima A</a>
                             <div class="space20"></div>
                             <ul>
-                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bed-icon1.svg" alt=""> x2</a> <span> | </span></li>
-                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bat-icon1.svg" alt=""> x1</a> <span> | </span></li>
-                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/squre-icon1.svg" alt=""> 30 / 60 m2</a></li>
+                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bed-icon1.svg" alt="icon kasur"> x2</a> <span> | </span></li>
+                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bat-icon1.svg" alt="icon bath tub"> x1</a> <span> | </span></li>
+                                <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/squre-icon1.svg" alt="icon square"> 30 / 60 m2</a></li>
                             </ul>
                         </div>
                         <div class="arrow">
@@ -75,7 +75,7 @@
                         </div>
                     </div>
                     <div class="elements3">
-                        <img src="<?= $img ?>elements/elements3.png" alt="">
+                        <img src="<?= $img ?>elements/elements3.png" alt="background element">
                     </div>
                 </div>
             </div>

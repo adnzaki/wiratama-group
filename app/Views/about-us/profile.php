@@ -5,13 +5,13 @@
                 <div class="space60 d-lg-none d-block"></div>
                 <div class="about-images">
                     <div class="img1 reveal image-anime">
-                        <img src="assets/img/all-images/about/wr-profile-1.webp" alt="">
+                        <img src="assets/img/all-images/about/wr-profile-1.webp" alt="Karyawan Wiratama Group">
                     </div>
                     <div class="img2 reveal image-anime">
-                        <img src="assets/img/all-images/about/wr-profile-2.webp" alt="">
+                        <img src="assets/img/all-images/about/wr-profile-2.webp" alt="Family Gathering Wiratama Group">
                     </div>
                     <div class="elements">
-                        <img src="assets/img/elements/elements12.png" alt="">
+                        <img src="assets/img/elements/elements12.png" alt="background pola">
                     </div>
                 </div>
             </div>

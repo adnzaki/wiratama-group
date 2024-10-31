@@ -18,7 +18,7 @@
             <div class="col-lg-10 m-auto">
                 <div class="rotate-img">
                     <iframe src="https://momento360.com/e/u/163e1a90974845d988fa0ec66e9b1859?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"></iframe>
-                    <img src="<?= $img ?>elements/elements3.png" alt="" class="elements3">
+                    <img src="<?= $img ?>elements/elements3.png" alt="background element" class="elements3">
                 </div>
             </div>
         </div>

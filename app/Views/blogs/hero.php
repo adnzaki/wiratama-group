@@ -1,10 +1,10 @@
 <!--===== HERO AREA STARTS =======-->
 <div class="inner-main-hero-area">
     <div class="img1">
-        <img src="<?= $img ?>all-images/products/wiratama-estate-3/wr-estate-3-hero-1.webp" alt="">
+        <img src="<?= $img ?>all-images/products/wiratama-estate-3/wr-estate-3-hero-1.webp" alt="blog wiratama">
     </div>
     <div class="img2">
-        <img src="<?= $img ?>all-images/products/wiratama-estate-3/wr-estate-3-hero-2.webp" alt="">
+        <img src="<?= $img ?>all-images/products/wiratama-estate-3/wr-estate-3-hero-2.webp" alt="blog wiratama">
     </div>
     <div class="container">
         <div class="row">

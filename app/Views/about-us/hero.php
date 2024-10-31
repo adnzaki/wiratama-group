@@ -1,10 +1,10 @@
 <!--===== HERO AREA STARTS =======-->
 <div class="inner-main-hero-area">
     <div class="img1">
-        <img src="<?= $img ?>all-images/about/about-us-hero-1.webp" alt="">
+        <img src="<?= $img ?>all-images/about/about-us-hero-1.webp" alt="About Us 1">
     </div>
     <div class="img2">
-        <img src="<?= $img ?>all-images/about/about-us-hero-2.webp" alt="">
+        <img src="<?= $img ?>all-images/about/about-us-hero-2.webp" alt="About Us 2">
     </div>
     <div class="container">
         <div class="row">

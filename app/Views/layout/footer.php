@@ -8,7 +8,7 @@
                     <div class="footer-bottom-area">
                         <div class="footer-menu-area">
                             <div class="footer-logo">
-                                <a href="#" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
+                                <a href="#" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt="Logo Wiratama Group"></a>
                             </div>
                             <div class="footer-menu">
                                 <ul>

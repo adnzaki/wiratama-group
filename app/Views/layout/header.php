@@ -6,7 +6,7 @@
                 <div class="col-lg-12">
                     <div class="header-elements">
                         <div class="site-logo">
-                            <a href="<?= base_url() ?>" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
+                            <a href="<?= base_url() ?>" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt="Logo Wiratama Group"></a>
                         </div>
                         <div class="main-menu">
                             <ul>
@@ -31,7 +31,8 @@
                                 <a href="#"><img src="<?= $img ?>icons/search-icon1.svg" alt=""> <span></span></a>
                             </div> -->
                             <ul>
-                                <!-- <li><a target="_blank" href="<?//= $contactLink ?>"><i class="fa-brands fa-whatsapp"></i></a></li> -->
+                                <!-- <li><a target="_blank" href="<? //= $contactLink 
+                                                                    ?>"><i class="fa-brands fa-whatsapp"></i></a></li> -->
                                 <li><a aria-label="Link Facebook" target="_blank" href="<?= $facebookPage ?>"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a aria-label="Link Instagram" target="_blank" href="<?= $instagramProfile ?>"><i class="fa-brands fa-instagram"></i></a></li>
                                 <li><a aria-label="Link Youtube Channel" target="_blank" href="<?= $youtubeChannel ?>" class="m-0"><i class="fa-brands fa-youtube"></i></a></li>

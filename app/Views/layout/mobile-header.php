@@ -4,7 +4,7 @@
         <div class="col-12">
             <div class="mobile-header-elements">
                 <div class="mobile-logo">
-                    <a href="<?= base_url() ?>" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt=""></a>
+                    <a href="<?= base_url() ?>" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt="Logo Wiratama Group"></a>
                 </div>
                 <div class="mobile-nav-icon dots-menu">
                     <i class="fa-solid fa-bars"></i>

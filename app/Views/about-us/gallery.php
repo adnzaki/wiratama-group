@@ -20,7 +20,7 @@
                                     <div class="content-area">
                                         <a type="button" @click="openImageGallery({ image: '<?= $imageSrc ?>', text: '<?= $image['text'] ?>' })" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <div class="img1">
-                                                <img src="<?= $imageSrc ?>" alt="">
+                                                <img src="<?= $imageSrc ?>" alt="Galeri Foto Wiratama">
                                             </div>
                                         </a>
                                         <div class="icons">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="img1">
-                        <img style="width: 100%;" :src="selectedImageGallery" alt="">
+                        <img style="width: 100%;" :src="selectedImageGallery" :alt="imageGalleryText">
                     </div>
                 </div>
                 <!-- <div class="modal-footer">

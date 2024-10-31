@@ -5,13 +5,13 @@
             <div class="col-lg-5">
                 <div class="images-area">
                     <div class="img1 image-anime reveal">
-                        <img src="<?= $img ?>all-images/products/wiratama-estate-3/wr-estate3-highlight-1.png" alt="">
+                        <img src="<?= $img ?>all-images/products/wiratama-estate-3/wr-estate3-highlight-1.png" alt="wiratama estate 3">
                     </div>
                     <div class="img2 image-anime reveal">
-                        <img src="<?= $img ?>all-images/products/wiratama-estate-3/wr-estate3-highlight-2.png" alt="">
+                        <img src="<?= $img ?>all-images/products/wiratama-estate-3/wr-estate3-highlight-2.png" alt="wiratama residence 2">
                     </div>
                     <div class="elements">
-                        <img src="<?= $img ?>elements/elements8.png" alt="">
+                        <img src="<?= $img ?>elements/elements8.png" alt="background element">
                     </div>
                 </div>
             </div>

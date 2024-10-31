@@ -8,10 +8,10 @@
                         <img width="437" height="550" style="visibility: hidden;" src="<?//= $img ?>all-images/property/<?//= $overview['image1'] ?>" alt="">
                     </div> -->
                     <div class="img2 reveal image-anime">
-                        <img width="437" height="550" src="<?= $img ?>all-images/property/<?= $overview['image1'] ?>" alt="">
+                        <img width="437" height="550" src="<?= $img ?>all-images/property/<?= $overview['image1'] ?>" alt="tipe arjuna">
                     </div>
                     <div class="elements reveal image-anime">
-                        <img width="666" height="665" src="<?= $img ?>elements/elements9.png" alt="">
+                        <img width="666" height="665" src="<?= $img ?>elements/elements9.png" alt="background element">
                     </div>
                 </div>
             </div>

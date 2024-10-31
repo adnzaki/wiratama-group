@@ -6,14 +6,14 @@
                 <img width="900" height="844" src="<?= $img ?>all-images/hero/<?= $hero['image'] ?>" alt="Hero slider images">
             </div>
             <div class="bg-elements">
-                <img width="666" height="665" src="<?= $img ?>elements/elements7.png" alt="" class="elements2">
+                <img width="666" height="665" src="<?= $img ?>elements/elements7.png" alt="background element" class="elements2">
             </div>
             <div class="container" style="margin-top: -70px;">
                 <div class="row">
                     <div class="col-lg-5 col-md-9">
                         <div class="header-content-area header-heading">
                             <div class="elements">
-                                <img src="<?= $img ?>elements/elements3.png" alt="">
+                                <img src="<?= $img ?>elements/elements3.png" alt="background element">
                             </div>
                             <div class="header-heading2">
                                 <h5><i class="fa-solid fa-location-dot"></i><?= $hero['address'] ?></h5>
