@@ -96,7 +96,7 @@ class Home extends BaseController
     {
         $data = [
             'title'         => 'Rasakan Keanggunan dan Kenyamanan di Hunian Impian',
-            'description'   => 'Nikmati konsep rumah Modern, Futuristik, dan Mewah di Wiratama Estate 3, yang dirancang untuk gaya hidup premium dengan harga terjangkau.<br/><br/> 
+            'description'   => 'Wiratama Estate 3 menawarkan hunian eksklusif dengan sentuhan futuristik yang memadukan kenyamanan dan keindahan. Setiap unit dirancang dengan perhatian penuh terhadap detail, memadukan elemen estetika modern dan fungsi yang praktis<br/><br/> 
                                 Sementara itu, Wiratama Residence 2 menawarkan desain Skandinavia yang elegan dan sederhana, menghadirkan kehangatan dan kenyamanan dalam setiap sudut hunian.',
             'image1'        => 'property-1.webp',
             'image2'        => 'property-3.webp',
