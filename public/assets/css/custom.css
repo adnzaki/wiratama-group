@@ -198,6 +198,44 @@
 	background: #163b78;
 }
 
+/* Copy H2 style to H1 to improve SEO */
+
+.header-heading2 h1 {
+	color: var(--ztc-text-text-1);
+	font-family: var(--ztc-family-font1);
+	font-size: var(--ztc-font-size-font-s56);
+	font-style: normal;
+	font-weight: var(--ztc-weight-regular);
+	line-height: 64px;
+	transition: all 0.4s;
+	display: inline-block;
+}
+
+.header-carousel-area3 .active .main-hero-area .header-content-area h1 {
+	transition: transform 1600ms ease, opacity 1600ms ease;
+	transform: translateX(0px);
+	opacity: 1;
+}
+
+.header-carousel-area3 .main-hero-area .header-content-area h1 {
+	overflow: hidden;
+	transition: transform 1400ms ease, opacity 1400ms ease;
+	transform: translateX(-800px);
+	position: relative;
+	opacity: 0;
+	font-family: var(--ztc-family-font2) !important;
+	font-weight: var(--ztc-weight-bold);
+}
+
+.heading3 h2 {
+	color: var(--ztc-text-text-8);
+	font-family: var(--ztc-family-font2);
+	font-size: var(--ztc-font-size-font-s44);
+	font-style: normal;
+	font-weight: var(--ztc-weight-bold);
+	line-height: 54px;
+}
+
 /* .blog-inner-section-area .blog-details-left .search-area {
     border-radius: 16px;
     padding: 0 32px;

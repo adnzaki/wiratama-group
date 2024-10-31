@@ -19,7 +19,7 @@
                                 <h5><i class="fa-solid fa-location-dot"></i><?= $hero['address'] ?></h5>
                                 <div class="space20"></div>
 
-                                <h2><?= $hero['tagline'] ?></h2>
+                                <h1><?= $hero['tagline'] ?></h1>
 
                                 <div class="space20"></div>
                                 <p><?= $hero['description'] ?></p>
