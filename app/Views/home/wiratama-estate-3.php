@@ -58,7 +58,7 @@
                 <div class="space30 d-lg-none d-block"></div>
                 <div class="about-widget-images">
                     <div class="img1 reveal image-anime">
-                        <img src="<?= $img ?>all-images/best-properties/wr-bima-ab.webp" alt="">
+                        <img src="<?= $img ?>all-images/best-properties/wr-bima-ab.webp" alt="Tipe Bima A">
                     </div>
                     <div class="content-area">
                         <div class="text">

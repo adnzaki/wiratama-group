@@ -68,6 +68,7 @@ abstract class BaseController extends Controller
             'location'          => 'Jl. Kantor Kel. Lubang Buaya, Kec. Setu, Kab. Bekasi',
             'mapLocation'       => 'https://maps.app.goo.gl/KTfq6rbjJkSgYpsS8',
             'logo'              => 'logo-wiratama.webp',
+            'logoAlt'           => 'Logo Wiratama Group',
             'facebookPage'      => 'https://www.facebook.com/profile.php?id=100092417575690',
             'youtubeChannel'    => 'https://www.youtube.com/@WiratamaGroup',
             'instagramProfile'  => 'https://www.instagram.com/wiratamagroupofficial/',

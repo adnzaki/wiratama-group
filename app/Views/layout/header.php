@@ -6,7 +6,7 @@
                 <div class="col-lg-12">
                     <div class="header-elements">
                         <div class="site-logo">
-                            <a href="<?= base_url() ?>" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt="Logo Wiratama Group"></a>
+                            <a href="<?= base_url() ?>" aria-label="Logo Wiratama Group"><img src="<?= $img ?>logo/<?= $logo ?>" alt="<?= $logoAlt ?>"></a>
                         </div>
                         <div class="main-menu">
                             <ul>
@@ -45,7 +45,7 @@
                             <div class="header-search-container">
                                 <form role="search" class="search-form">
                                     <input type="search" class="search-field" placeholder="Search …" value="" name="s">
-                                    <button type="submit" class="search-submit"><img src="<?= $img ?>icons/search-icon1.svg" alt=""></button>
+                                    <button type="submit" class="search-submit"><img src="<?= $img ?>icons/search-icon1.svg" alt="cari sesuatu"></button>
                                 </form>
                             </div>
                         </div>

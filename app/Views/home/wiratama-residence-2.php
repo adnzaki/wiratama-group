@@ -17,15 +17,15 @@
                 <div class="space40"></div>
                 <div class="apartment-boxarea">
                     <div class="img1">
-                        <img src="<?= $img ?>all-images/wiratama-residence-2/wr-residence2-thumb.webp" alt="">
+                        <img src="<?= $img ?>all-images/wiratama-residence-2/wr-residence2-thumb.webp" alt="wiratama residence 2">
                     </div>
                     <div class="content-area">
                         <a href="apartment-single.html">Tipe 36 + 7,5</a>
                         <div class="space16"></div>
                         <ul>
-                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bed-icon1.svg" alt="">x2</a> <span> | </span></li>
-                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bat-icon1.svg" alt="">x1</a> <span> | </span></li>
-                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/squre-icon1.svg" alt="">43,5 / 72 m2</a></li>
+                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bed-icon1.svg" alt="bed icon">x2</a> <span> | </span></li>
+                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/bat-icon1.svg" alt="bathtub icon">x1</a> <span> | </span></li>
+                            <li><a href="#"><img width="18" height="18" src="<?= $img ?>icons/squre-icon1.svg" alt="square icon">43,5 / 72 m2</a></li>
                         </ul>
                     </div>
                     <div class="arrow">
@@ -49,7 +49,7 @@
                             <div class="testimonial-vertical wiratama-residence2-slider">
                                 <div class="property-images-area">
                                     <div class="img1 reveal image-anime">
-                                        <img src="<?= $img ?>all-images/wiratama-residence-2/<?= $slider ?>" alt="">
+                                        <img src="<?= $img ?>all-images/wiratama-residence-2/<?= $slider ?>" alt="galeri singkat wiratama residence 2">
                                     </div>
 
                                 </div>

@@ -19,6 +19,7 @@
 
     <!--=====FAB ICON=======-->
     <link rel="shortcut icon" href="<?= $img ?>logo/wr-favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= $img ?>logo/wr-favicon.png">
 
     <!--===== CSS LINK =======-->
     <link rel="preload" as="style" onload="this.rel='stylesheet'" href="<?= $css ?>plugins/bootstrap.min.css">

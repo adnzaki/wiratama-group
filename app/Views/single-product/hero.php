@@ -1,10 +1,10 @@
 <!--===== HERO AREA STARTS =======-->
 <div class="inner-main-hero-area">
     <div class="img1 <?= ($details['property_url'] === 'wiratama-residence-2' ? 'w-residence-2-hero1' : '') ?>">
-        <img src="<?= $img ?>all-images/products/<?= $details['hero1'] ?>" alt="">
+        <img src="<?= $img ?>all-images/products/<?= $details['hero1'] ?>" alt="hero image 1">
     </div>
     <div class="img2">
-        <img src="<?= $img ?>all-images/products/<?= $details['hero2'] ?>" alt="">
+        <img src="<?= $img ?>all-images/products/<?= $details['hero2'] ?>" alt="hero image 2">
     </div>
     <div class="container">
         <div class="row">

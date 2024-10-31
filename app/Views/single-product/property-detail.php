@@ -27,9 +27,9 @@
                                             $specs = explode(',', $product['specification']);
                                             $startingPrice = 'Rp. ' . number_format($product['start_price'], 0, ',', '.');
                                             ?>
-                                            <li><a href="<?= $productLink ?>"><img src="<?= $img ?>icons/bed-icon1.svg" alt=""> <?= $specs[0] ?></a></li>&nbsp;&nbsp;
-                                            <li><a href="<?= $productLink ?>"><img src="<?= $img ?>icons/bat-icon1.svg" alt=""> <?= $specs[1] ?></a></li><br />
-                                            <li><a href="<?= $productLink ?>" class="m-0"><img src="<?= $img ?>icons/squre-icon1.svg" alt=""> <?= $specs[2] ?></a></li>
+                                            <li><a href="<?= $productLink ?>"><img src="<?= $img ?>icons/bed-icon1.svg" alt="bed icon"> <?= $specs[0] ?></a></li>&nbsp;&nbsp;
+                                            <li><a href="<?= $productLink ?>"><img src="<?= $img ?>icons/bat-icon1.svg" alt="bath tub icon"> <?= $specs[1] ?></a></li><br />
+                                            <li><a href="<?= $productLink ?>" class="m-0"><img src="<?= $img ?>icons/squre-icon1.svg" alt="square icon"> <?= $specs[2] ?></a></li>
                                         </ul>
                                         <div class="space20"></div>
                                         <p><a href="<?= $productLink ?>"><?= $startingPrice ?></a></p>
@@ -92,7 +92,7 @@
                             <div class="col-lg-6 col-md-6">
                                 <div class="list-area">
                                     <div class="icons">
-                                        <img src="<?= $img ?>icons/<?= $icon ?>.svg" alt="">
+                                        <img src="<?= $img ?>icons/<?= $icon ?>.svg" alt="fitur properti">
                                     </div>
                                     <div class="text">
                                         <a href="#"><?= $name ?> </a>

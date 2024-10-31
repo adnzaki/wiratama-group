@@ -1,11 +1,11 @@
 <div class="col-lg-7">
     <div class="blog-author-area pdright">
         <div class="img1">
-            <img src="<?= $post->singlePostImage ?>" alt="">
+            <img src="<?= $post->singlePostImage ?>" alt="featured image <?= $post->title ?>">
         </div>
         <div class="space40"></div>
         <ul>
-            <li><a href="#"><img width="20" height="20" src="<?= $img ?>icons/account-icon.svg" alt=""> <?= $post->author ?></a> <span> | </span></li>
+            <li><a href="#"><img width="20" height="20" src="<?= $img ?>icons/account-icon.svg" alt="post author"> <?= $post->author ?></a> <span> | </span></li>
             <!-- <li><a href="#"><i class="fa-solid fa-tag"></i> Dream Home</a> <span> | </span></li> -->
             <li><a href="#"><i class="fa-solid fa-calendar-days"></i> <?= os_date()->create($post->date, 'd-M-y') ?></a></li>
         </ul>
