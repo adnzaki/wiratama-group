@@ -23,7 +23,7 @@
 
     <?= view('home/wiratama-residence-2') ?>
 
-    <?//= view('home/schedule-tour') ?>
+    <?= view('home/direct-tour') ?>
 
     <?= view('home/blog') ?>
 

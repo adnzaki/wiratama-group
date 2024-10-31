@@ -93,9 +93,9 @@
                     <div class="space24"></div>
                     <p>Butuh komunikasi lebih lanjut? Kunjungi kantor kami dan staff kami siap membantu anda secara langsung!</p>
                     <div class="space32"></div>
-                    <!-- <div class="btn-area1">
-                        <a href="#"><img src="assets/img/icons/whatsapp.svg" alt=""> Ask Question On WhatsApp</a>
-                    </div> -->
+                    <div class="btn-area1">
+                        <a href="<?= $mapLocation ?>" target="_blank"><img src="assets/img/icons/maps.svg" alt=""> Lihat di Map</a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-8">

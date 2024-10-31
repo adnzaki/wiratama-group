@@ -6,6 +6,7 @@ class Home extends BaseController
 {
     public function index()
     {
+        $common = $this->commonData();
         $data = [
             'pageTitle'             => 'Wiratama Group - Hunian Modern, Mewah, dan Terjangkau',
             'heros'                 => $this->hero(),
@@ -14,11 +15,12 @@ class Home extends BaseController
             'properties'            => $this->wiratamaEstate3Slider(),
             'youtubeLink'           => 'https://www.youtube.com/watch?v=KIJAv5XEgQw',
             'video-thumb'           => 'wr-video-thumbnail.png',
+            'sendWhatsapp'          => 'https://api.whatsapp.com/send?phone=' . $common['contactWhatsapp'] . '&text=Halo,%20saya%20ingin%20melihat%20langsung%20properti%20dari%20Wiratama%20Group.%20Kapan%20bisa%20dijadwalkan%20ya?',
             'wiratamaResidence2'    => $this->wiratamaResidence2Slider(),
-            'posts'                 => wp()->setPerPage(3)->getPosts(1)
+            'posts'                 => wp()->setPerPage(3)->getPosts(1),
         ];
         
-        return view('home/main', array_merge($this->commonData(), $data));
+        return view('home/main', array_merge($common, $data));
     }
 
     private function wiratamaResidence2Slider()

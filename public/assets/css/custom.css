@@ -190,6 +190,14 @@
 	line-height: 23px;
 }
 
+.contact-inner-area .contact-author-box .btn-area1 a {
+	background: #0b4331;
+}
+
+.contact-inner-area .contact-author-box .btn-area1 a:hover {
+	background: #163b78;
+}
+
 /* .blog-inner-section-area .blog-details-left .search-area {
     border-radius: 16px;
     padding: 0 32px;
