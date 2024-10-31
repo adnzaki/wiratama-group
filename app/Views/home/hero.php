@@ -1,6 +1,6 @@
 <!--===== HERO AREA STARTS =======-->
 <div class="header-carousel-area3 owl-carousel">
-    <?php foreach ($heros as $hero): ?>
+    <?php foreach ($heros as $key => $hero): ?>
         <div class="main-hero-area">
             <div class="img1">
                 <img width="900" height="844" src="<?= $img ?>all-images/hero/<?= $hero['image'] ?>" alt="Hero slider images">
@@ -19,7 +19,11 @@
                                 <h5><i class="fa-solid fa-location-dot"></i><?= $hero['address'] ?></h5>
                                 <div class="space20"></div>
 
+                                <?php if ($key == 0): ?>
                                 <h1><?= $hero['tagline'] ?></h1>
+                                <?php else: ?>
+                                <h2><?= $hero['tagline'] ?></h2>
+                                <?php endif; ?>
 
                                 <div class="space20"></div>
                                 <p><?= $hero['description'] ?></p>
