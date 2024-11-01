@@ -20,6 +20,21 @@ class AboutUs extends BaseController
                 'size'  => 'col-lg-4',
                 'text'  => 'Acara Grand Launching Wiratama Estate 3',
             ],
+            [
+                'src'   => 'gallery-col-4a',
+                'size'  => 'col-lg-4',
+                'text'  => 'Acara Grand Launching Wiratama Estate 3',
+            ],
+            [
+                'src'   => 'gallery-col-5a',
+                'size'  => 'col-lg-5',
+                'text'  => 'Acara Grand Launching Wiratama Estate 3',
+            ],
+            [
+                'src'   => 'gallery-col-3a',
+                'size'  => 'col-lg-3',
+                'text'  => 'Acara Grand Launching Wiratama Estate 3',
+            ],
         ];
 
         $data = [   

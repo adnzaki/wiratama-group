@@ -6,7 +6,7 @@
                     <div class="heading3 space-margin60">
                         <h5>Our Gallery</h5>
                         <div class="space20"></div>
-                        <h2>We are all Family!</h2>
+                        <h2>Our Active Events!</h2>
                     </div>
                 </div>
             </div>
